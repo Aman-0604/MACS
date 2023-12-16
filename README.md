@@ -2,8 +2,8 @@
 MACS DTU is the official society of Department of Applied Mathematics, DTU
 
 # Developers
-Aman Gupta\
-Aditya Mishra
+[Aman Gupta](https://www.linkedin.com/in/ag0604/)\
+[Aditya Mishra](https://www.linkedin.com/in/aditya-m-33119a233/)
 
 # Guidlines for contributors
 
