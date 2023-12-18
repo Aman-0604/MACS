@@ -22,3 +22,5 @@ git fetch
 git merge main
 git push
 ```
+
+Head towards your git repository and create a pull request. Make sure that you are in the right branch.
