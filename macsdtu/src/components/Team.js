@@ -10,6 +10,7 @@ import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
 // import Vivek from '../images/vivek.jpg'
 import Dummy from '../images/dummy.jpg'
 import Quotes from './Quotes'
+import ImageBox from './Imagebox'
 let team_quote = [{ message: "Teamwork makes the dream work.", color: "white", size: "3xl" }, { message: "Together, we achieve more than we ever could alone.", color: "neutral-500", size: "3xl" }]
 
 export default function Team() {
@@ -29,8 +30,8 @@ export default function Team() {
       <div className="faculty-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
         <p className="text-4xl">Facutly Advisors</p>
         <div className="faculty-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          <div className="border-2 border-red-400 w-fit faculty-advisor"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit faculty-co-adviser"><img className="h-64" src={Dummy} alt="" /></div>
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
         </div>
       </div>
 
@@ -38,26 +39,41 @@ export default function Team() {
       <div className="senior-council-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
         <p className="text-4xl">Senior Council</p>
         <div className="senior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          <div className="border-2 border-red-400 w-fit President"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit Vice-President"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit Vice-President"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit Treasurer"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit Head-Of-Operations"><img className="h-64" src={Dummy} alt="" /></div>
-          <div className="border-2 border-red-400 w-fit Head-Of-Research"><img className="h-64" src={Dummy} alt="" /></div>
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
         </div>
       </div>
 
       {/* Junior Council */}
-      {/* <div className="junior-council-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
+      <div className="junior-council-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
         <p className="text-4xl">Junior Council</p>
         <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          <div className="General-Secreatary"><img className="h-64" src={} alt="" /></div>
-          <div className="Joint-Secreatary"><img className="h-64" src={} alt="" /></div>
-          <div className="Tech-Head"><img className="h-64" src={} alt="" /></div>
-          <div className="Tech-Head"><img className="h-64" src={} alt="" /></div>
-          <div className="ML-Head"><img className="h-64" src={} alt="" /></div>
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
+          <ImageBox img={Dummy} />
         </div>
-      </div> */}
+      </div>
 
     </div>
   )
