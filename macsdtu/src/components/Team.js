@@ -6,8 +6,8 @@ import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
 // import Rahul from '../images/Rahul.jpg'
 // import Harshit from '../images/Harshit.jpg'
 // import Shivam from '../images/Shivam.jpg'
-// import Dinesh from '../images/DineshUdar.jpg'
-// import Vivek from '../images/vivek.jpg'
+import Dinesh from '../images/DineshUdar.jpg'
+import Vivek from '../images/vivek.jpg'
 import Dummy from '../images/dummy.jpg'
 import Quotes from './Quotes'
 import ImageBox from './Imagebox'
@@ -27,18 +27,18 @@ export default function Team() {
       </div>
 
       {/* Faculty Section */}
-      <div className="faculty-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
-        <p className="text-4xl">Facutly Advisors</p>
-        <div className="faculty-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
+      <div className="faculty-section flex flex-col justify-center items-center mt-16">
+        <p className="text-5xl uppercase">Facutly Advisors</p>
+        <div className="faculty-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-44 gap-y-20 mt-16">
+          <ImageBox img={Dinesh} />
+          <ImageBox img={Vivek} />
         </div>
       </div>
 
       {/* Senior Council */}
-      <div className="senior-council-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
-        <p className="text-4xl">Senior Council</p>
-        <div className="senior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div className="senior-council-section flex flex-col justify-center items-center mt-32">
+        <p className="text-5xl uppercase">Senior Council</p>
+        <div className="senior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Dummy} />
           <ImageBox img={Dummy} />
           <ImageBox img={Dummy} />
@@ -49,9 +49,9 @@ export default function Team() {
       </div>
 
       {/* Junior Council */}
-      <div className="junior-council-section flex flex-col justify-center mt-16 mx-8 lg:mx-16">
-        <p className="text-4xl">Junior Council</p>
-        <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div className="junior-council-section flex flex-col justify-center items-center mt-32">
+        <p className="text-5xl uppercase">Junior Council</p>
+        <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Dummy} />
           <ImageBox img={Dummy} />
           <ImageBox img={Dummy} />
