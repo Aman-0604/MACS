@@ -7,6 +7,7 @@ import p3 from '../images/person3.svg'
 import p4 from '../images/person4.svg'
 import p5 from '../images/person5.svg'
 import p6 from '../images/person6.svg'
+import Dummy from '../images/dummy.jpg'
 import arrow1 from '../images/arrow1.svg'
 import arrow2 from '../images/arrow2.svg'
 import arrow3 from '../images/arrow3.svg'
@@ -14,6 +15,7 @@ import arrow4 from '../images/arrow4.svg'
 import arrow5 from '../images/arrow5.svg'
 import arrow6 from '../images/arrow6.svg'
 import Quotes from './Quotes'
+import MessageBox from './Messagebox'
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
@@ -110,39 +112,14 @@ export default function Home() {
           <a href='https://www.instagram.com/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></a>
           <a href='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></a>
         </div>
-        <div className="w-full grid grid-cols-4 h-96">
-          <div className="w-full">
-            <div className="border rounded-2xl m-2 h-3/4">
-
-            </div>
-            <div className="border rounded-2xl m-2 h-1/4">
-
-            </div>
-          </div>
-          <div className="w-full">
-            <div className="border rounded-2xl m-2 h-1/3">
-
-            </div>
-            <div className="border rounded-2xl m-2 h-1/2">
-
-            </div>
-          </div>
-          <div className="w-full">
-            <div className="border rounded-2xl m-2 h-1/2">
-
-            </div>
-            <div className="border rounded-2xl m-2 h-1/2">
-
-            </div>
-          </div>
-          <div className="w-full">
-            <div className="border rounded-2xl m-2 h-3/4">
-
-            </div>
-            <div className="border rounded-2xl m-2 h-1/4">
-
-            </div>
-          </div>
+        {/* Gallery Grid */}
+        <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14">
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia"`} />
         </div>
       </div>
     </>
