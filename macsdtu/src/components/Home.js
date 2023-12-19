@@ -14,8 +14,8 @@ import arrow4 from '../images/arrow4.svg'
 import arrow5 from '../images/arrow5.svg'
 import arrow6 from '../images/arrow6.svg'
 import Quotes from './Quotes'
-let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-4xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-4xl" }]
-let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-l" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-l" }];
+let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
+let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
 let q4 = [{ message: "Skill Development", color: "text-white", size: "text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "text-2xl" }];
 let q5 = [{ message: "Potential Growth", color: "text-white", size: "text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", size: "text-2xl" }]
@@ -28,121 +28,123 @@ let q10 = [{ message: "Join the Community", color: "text-white", size: "text-2xl
 export default function Home() {
   return (
     <>
-    <div className='flex flex-col justify-center h-full w-full'>
-      <div className="image w-full h-3/4 flex justify-center mt-16 mb-8">
-        <img src={logo} alt="" />
-      </div>
-      <div className="qoutes text-center flex flex-col items-center mb-4">
-        <Quotes msg={q1} />
-        <div className="my-3">
-          <Quotes msg={q2} />
+      <div className='flex flex-col justify-center h-full w-full'>
+        <div className="image w-full h-3/4 flex justify-center mt-16 mb-8">
+          <img src={logo} alt="" />
         </div>
-        <div className="w-full mt-4 mb-3 flex justify-center">
-          <Link to="/"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
-          <Link to='/'><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
+        <div className="qoutes text-center flex flex-col items-center mb-4">
+          <Quotes msg={q1} />
+          <div className="my-3">
+            <Quotes msg={q2} />
+          </div>
+          <div className="w-full mt-4 mb-3 flex justify-center">
+            <Link to="/"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
+            <Link to='/'><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
+          </div>
         </div>
-        <p className='text-neutral-500'>Work with the brightest minds at DTU</p>
+        <div className="w-full flex flex-col p-0 mx-auto justify-center mt-9">
+          <div>
+            <p className='text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
+          </div>
+          <div className="flex mx-auto justify-center items-center h-48">
+            <img className='h-full' src={p1} alt="" />
+            <img className='h-full' src={p2} alt="" />
+            <img className='h-full' src={p3} alt="" />
+            <img className='h-full' src={p4} alt="" />
+            <img className='h-full' src={p5} alt="" />
+            <img className='h-full' src={p6} alt="" />
+          </div>
+        </div>
       </div>
-      <div className="bottom w-full flex h-52 p-0 mx-auto justify-center mt-4">
-        {/* <div className="flex"> */}
-        <img className='h-full' src={p1} alt="" />
-        <img className='h-full' src={p2} alt="" />
-        <img className='h-full' src={p3} alt="" />
-        <img className='h-full' src={p4} alt="" />
-        <img className='h-full' src={p5} alt="" />
-        <img className='h-full' src={p6} alt="" />
-        {/* </div> */}
-      </div>
-    </div>
-    {/* grid system 1 */}
-    <div className='w-full h-full'>
-      <div className="heading w-full flex flex-col items-center text-center mb-8">
-        <Quotes msg = {q3}></Quotes>
-      </div>
-      <div className="flex w-full justify-center">
-        <div className="left-pane w-1/3 flex flex-col">
-          <div className="text-center mt-16">
-            <div className='flex my-4'>
-              <Quotes msg={q4}></Quotes>
-              <img src={arrow6} alt="" />
-            </div>
-            <div className='flex my-4'>
-              <Quotes msg={q5}></Quotes>
-              <img src={arrow5} alt="" />
-            </div>
-            <div className='flex my-4'>
-              <Quotes msg={q6}></Quotes>
-              <img src={arrow4} alt="" />
+      {/* grid system 1 */}
+      <div className='w-full h-full'>
+        <div className="heading w-full flex flex-col items-center text-center mb-8">
+          <Quotes msg={q3}></Quotes>
+        </div>
+        <div className="flex w-full justify-center">
+          <div className="left-pane w-1/3 flex flex-col">
+            <div className="text-center mt-16">
+              <div className='flex my-4'>
+                <Quotes msg={q4}></Quotes>
+                <img src={arrow6} alt="" />
+              </div>
+              <div className='flex my-4'>
+                <Quotes msg={q5}></Quotes>
+                <img src={arrow5} alt="" />
+              </div>
+              <div className='flex my-4'>
+                <Quotes msg={q6}></Quotes>
+                <img src={arrow4} alt="" />
+              </div>
             </div>
           </div>
+          <div className="mid-pane w-1/4 text-center relative">
+            <img className='h-4/5 mb-0 w-full' src={p1} alt="" />
+            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "text-2xl" }]} />
           </div>
-        <div className="mid-pane w-1/4 text-center relative">
-          <img className='h-4/5 mb-0 w-full' src={p1} alt="" />
-          <Quotes msg={[{message:"MACS MEMBER",color:"text-red-400",size:"text-2xl"}]} />
-        </div>
-        <div className="right-pane w-1/3 flex flex-col">
-        <div className="text-center mt-16">
-            <div className='flex my-4'>
-              <img src={arrow3} alt="" />
-              <Quotes msg={q7}></Quotes>
-            </div>
-            <div className='flex my-4'>
-              <img src={arrow2} alt="" />
-              <Quotes msg={q8}></Quotes>
-            </div>
-            <div className='flex my-4'>
+          <div className="right-pane w-1/3 flex flex-col">
+            <div className="text-center mt-16">
+              <div className='flex my-4'>
+                <img src={arrow3} alt="" />
+                <Quotes msg={q7}></Quotes>
+              </div>
+              <div className='flex my-4'>
+                <img src={arrow2} alt="" />
+                <Quotes msg={q8}></Quotes>
+              </div>
+              <div className='flex my-4'>
                 <img src={arrow1} alt="" />
                 <Quotes msg={q9}></Quotes>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div className="join-page w-full">
+        <div className="text-center w-full p-2 m-1">
+          <div className="mb-2">
+            <Quotes msg={q10} />
+
+          </div>
+          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></a>
+          <a href='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></a>
+        </div>
+        <div className="w-full grid grid-cols-4 h-96">
+          <div className="w-full">
+            <div className="border rounded-2xl m-2 h-3/4">
+
+            </div>
+            <div className="border rounded-2xl m-2 h-1/4">
+
             </div>
           </div>
+          <div className="w-full">
+            <div className="border rounded-2xl m-2 h-1/3">
 
-        </div>
-      </div>
-    </div>
-    <div className="join-page w-full">
-      <div className="text-center w-full p-2 m-1">
-        <div className="mb-2">
-          <Quotes msg={q10}/>
+            </div>
+            <div className="border rounded-2xl m-2 h-1/2">
 
-        </div>
-        <a href='https://www.instagram.com/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></a>
-        <a href='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></a>
-      </div>
-      <div className="w-full grid grid-cols-4 h-96">
-        <div className="w-full">
-          <div className="border rounded-2xl m-2 h-3/4">
-
+            </div>
           </div>
-          <div className="border rounded-2xl m-2 h-1/4">
+          <div className="w-full">
+            <div className="border rounded-2xl m-2 h-1/2">
 
+            </div>
+            <div className="border rounded-2xl m-2 h-1/2">
+
+            </div>
           </div>
-        </div>
-        <div className="w-full">
-          <div className="border rounded-2xl m-2 h-1/3">
+          <div className="w-full">
+            <div className="border rounded-2xl m-2 h-3/4">
 
-          </div>
-          <div className="border rounded-2xl m-2 h-1/2">
+            </div>
+            <div className="border rounded-2xl m-2 h-1/4">
 
-          </div>
-        </div>
-        <div className="w-full">
-          <div className="border rounded-2xl m-2 h-1/2">
-
-          </div>
-          <div className="border rounded-2xl m-2 h-1/2">
-
-          </div>
-        </div>
-        <div className="w-full">
-          <div className="border rounded-2xl m-2 h-3/4">
-
-          </div>
-          <div className="border rounded-2xl m-2 h-1/4">
-
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </>
   )
 }
