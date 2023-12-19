@@ -14,7 +14,7 @@ import arrow4 from '../images/arrow4.svg'
 import arrow5 from '../images/arrow5.svg'
 import arrow6 from '../images/arrow6.svg'
 import Quotes from './Quotes'
-let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-3xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-4xl" }]
+let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-4xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-4xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-l" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-l" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
 let q4 = [{ message: "Skill Development", color: "text-white", size: "text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "text-2xl" }];

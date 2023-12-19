@@ -10,7 +10,7 @@ import Event5 from '../images/event5.jpeg'
 import Event6 from '../images/event6.jpeg'
 import Event7 from '../images/event7.jpeg'
 import Event8 from '../images/event8.jpeg'
-let event_quote = [{ message: "Moments that matter, memories that linger.", color: "white", size: "3xl" }, { message: "Our events, where every gathering becomes a celebration of shared experiences.", color: "neutral-500", size: "3xl" }]
+let event_quote = [{ message: "Moments that matter, memories that linger.", color: "text-white", size: "text-3xl" }, { message: "Our events, where every gathering becomes a celebration of shared experiences.", color: "text-neutral-500", size: "text-3xl" }]
 
 export default function Event() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Quotes from './Quotes'
-let gallery_quote = [{ message: "Discover the magic within frames.", color: "white", size: "3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "neutral-500", size: "3xl" }]
+let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-neutral-500", size: "text-3xl" }]
 
 export default function Gallery() {
   return (

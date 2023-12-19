@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Quotes from './Quotes'
 import ImageBox from './Imagebox'
 import Dummy from '../images/dummy.jpg'
-let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "white", size: "3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "neutral-500", size: "3xl" }]
+let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "text-white", size: "text-3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "text-neutral-500", size: "text-3xl" }]
 
 export default function Sponsor() {
   return (

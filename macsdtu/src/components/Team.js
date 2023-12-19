@@ -24,7 +24,7 @@ import Rishek from '../images/Rishek.jpg'
 import Sahil from '../images/Sahil.jpg'
 import Quotes from './Quotes'
 import ImageBox from './Imagebox'
-let team_quote = [{ message: "Teamwork makes the dream work.", color: "white", size: "3xl" }, { message: "Together, we achieve more than we ever could alone.", color: "neutral-500", size: "3xl" }]
+let team_quote = [{ message: "Teamwork makes the dream work.", color: "text-white", size: "text-3xl" }, { message: "Together, we achieve more than we ever could alone.", color: "text-neutral-500", size: "text-3xl" }]
 
 export default function Team() {
   return (
