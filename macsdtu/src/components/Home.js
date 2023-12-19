@@ -44,7 +44,7 @@ export default function Home() {
             <Link to='/'><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
           </div>
         </div>
-        <div className="w-full flex flex-col p-0 mx-auto justify-center mt-9">
+        <div className="w-full flex flex-col p-0 mx-auto justify-center mt-10">
           <div>
             <p className='text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
           </div>
