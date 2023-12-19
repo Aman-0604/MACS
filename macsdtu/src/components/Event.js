@@ -1,7 +1,15 @@
 import React from 'react'
 import Quotes from './Quotes'
-import ImageBox from './Imagebox'
+import EventBox from './Eventbox'
 import Dummy from '../images/dummy.jpg'
+import Event1 from '../images/event1.jpeg'
+import Event2 from '../images/event2.jpeg'
+import Event3 from '../images/event3.jpeg'
+import Event4 from '../images/event4.jpeg'
+import Event5 from '../images/event5.jpeg'
+import Event6 from '../images/event6.jpeg'
+import Event7 from '../images/event7.jpeg'
+import Event8 from '../images/event8.jpeg'
 let event_quote = [{ message: "Moments that matter, memories that linger.", color: "white", size: "3xl" }, { message: "Our events, where every gathering becomes a celebration of shared experiences.", color: "neutral-500", size: "3xl" }]
 
 export default function Event() {
@@ -14,11 +22,12 @@ export default function Event() {
 
       {/* Flagship Event */}
       <div className="flagship-event-section flex flex-col justify-center items-center mt-20">
-        <p className="text-5xl uppercase">Flagship Event</p>
+        <p className="text-5xl uppercase">Flagship Events</p>
         <div className="flagship-event-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
+          <EventBox img={Event3} />
+          <EventBox img={Event4} />
+          <EventBox img={Event5} />
+          <EventBox img={Event6} />
         </div>
       </div>
 
@@ -26,19 +35,18 @@ export default function Event() {
       <div className="workshop-section flex flex-col justify-center items-center mt-32">
         <p className="text-5xl uppercase">Workshops</p>
         <div className="workshop-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
+          <EventBox img={Event1} />
+          <EventBox img={Event2} />
+          <EventBox img={Event8} />
         </div>
       </div>
 
       {/* Hackathons */}
       <div className="hackathons-section flex flex-col justify-center items-center mt-32">
-        <p className="text-5xl uppercase">Hackathons</p>
+        <p className="text-5xl uppercase">Other Events</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
-          <ImageBox img={Dummy} />
+          <EventBox img={Event7} />
+          <EventBox img={Dummy} />
         </div>
       </div>
 
