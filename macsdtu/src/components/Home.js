@@ -205,12 +205,11 @@ export default function Home() {
         </div>
         {/* Gallery Grid */}
         <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14">
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
-          <MessageBox img={Dummy} name={"SRK"} role={"Software Engineer, Amazon"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia"`} />
+          <MessageBox img={Dummy} name={"Aditya Maurya"} role={"ex-President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Dummy} name={"Ishan Bhateja"} role={"ex-Vice President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={Dummy} name={"Nikhil Gupta"} role={"ex-Treasurer, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
+          <MessageBox img={Dummy} name={"Md. Sahil Ansari"} role={"ex-Head of Operations, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Dummy} name={"Keshav"} role={"ex-Head of Research, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
         </div>
       </div>
     </>
