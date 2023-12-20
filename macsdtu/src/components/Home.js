@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/macs-logo-2.svg'
 import p1 from '../images/person1.svg'
@@ -16,6 +16,9 @@ import arrow5 from '../images/arrow5.svg'
 import arrow6 from '../images/arrow6.svg'
 import Quotes from './Quotes'
 import MessageBox from './Messagebox'
+import clg_svg1 from '../images/college_svg1.svg';
+import clg_svg2 from '../images/college_svg2.svg';
+import clg_svg3 from '../images/college_svg3.svg';
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
@@ -59,6 +62,94 @@ export default function Home() {
         </div>
       </div>
       {/* grid system 1 */}
+      <div className="gallery-grid w-5/6 mx-auto grid grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
+          <div className="sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-10 flex justify-center rounded-2xl p-2">
+            
+            <div className="description p-1 w-2/3 bg-transparent">
+                <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Department of Applied Mathematics
+                </p>
+                <p className="heading bg-transparent my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
+                </p>
+            </div>
+            <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
+          </div>
+          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
+          <div className="description text-center p-1 w-full bg-transparent">
+                <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Vision
+                </p>
+                <p className="heading bg-transparent w-full my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+                </p>
+            </div>
+            <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          </div>
+          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
+          <div className="description text-center p-1 w-full bg-transparent">
+                <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Mission
+                </p>
+                <p className="heading bg-transparent w-full my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+                </p>
+            </div>
+            <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          </div>
+          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
+          <div className="description text-center p-1 w-full bg-transparent">
+                <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Impact
+                </p>
+                <p className="heading bg-transparent w-full my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+                </p>
+            </div>
+            <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          </div>
+          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
+          <div className="description text-center p-1 w-full bg-transparent">
+                <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                   Expertise
+                </p>
+                <p className="heading bg-transparent w-full my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+                </p>
+            </div>
+            <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          </div>
+          <div className="col-span-2 bg-gray-500 bg-opacity-10 flex justify-center rounded-2xl p-2">
+            <div className="description p-1 w-2/3 bg-transparent">
+                <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Department of Applied Mathematics
+                </p>
+                <p className="heading bg-transparent my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, officia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error vel illum quod harum iusto eius?
+                </p>
+            </div>
+            <img className='mt-auto w-1/3 bg-transparent' src={clg_svg3} alt="" />
+          </div>
+          
+        </div>
       <div className='w-full h-full'>
         <div className="heading w-full flex flex-col items-center text-center mb-8">
           <Quotes msg={q3}></Quotes>
