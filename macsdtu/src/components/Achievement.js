@@ -2,7 +2,7 @@ import React from 'react'
 import Quotes from './Quotes'
 import AchievementBox from './Achievementbox'
 import Dummy from '../images/dummy.jpg'
-let achievement_quote = [{ message: "In the tapestry of success, our members weave remarkable threads.", color: "text-white", size: "text-3xl" }, { message: "Celebrating achievements, one milestone at a time,", color: "text-neutral-500", size: "text-3xl" }, { message: "as our society members shine brightly on their unique paths.", color: "text-neutral-500", size: "text-3xl" }]
+let achievement_quote = [{ message: "In the tapestry of success, our members weave remarkable threads.", color: "text-white", size: "text-3xl" }, { message: "Celebrating achievements, one milestone at a time,", color: "text-red-400", size: "text-3xl" }, { message: "as our society members shine brightly on their unique paths.", color: "text-red-400", size: "text-3xl" }]
 
 export default function Achievement() {
   return (

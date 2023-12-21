@@ -6,7 +6,7 @@ import Sponsor1 from '../images/Sponsor1.png'
 import Sponsor2 from '../images/Sponsor2.png'
 import Sponsor3 from '../images/Sponsor3.png'
 import Sponsor4 from '../images/Sponsor4.png'
-let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "text-white", size: "text-3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "text-neutral-500", size: "text-3xl" }]
+let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "text-white", size: "text-3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "text-red-400", size: "text-3xl" }]
 
 export default function Sponsor() {
   return (

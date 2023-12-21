@@ -32,7 +32,7 @@ import GalleryImage28 from '../images/memory28.jpg'
 import GalleryImage29 from '../images/memory29.jpg'
 import GalleryImage30 from '../images/memory30.png'
 import GalleryImage31 from '../images/memory31.png'
-let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-neutral-500", size: "text-3xl" }]
+let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-red-400", size: "text-3xl" }]
 
 export default function Gallery() {
   return (
