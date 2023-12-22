@@ -20,6 +20,9 @@ import MessageBox from './Messagebox'
 import clg_svg1 from '../images/college_svg1.svg';
 import clg_gate from '../images/college_gate.svg';
 import clg_svg3 from '../images/college_svg3.svg';
+import expertise from '../images/expertise.svg';
+import impact from '../images/impact.svg';
+import mission from '../images/mission.svg';
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
@@ -140,7 +143,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
+          <img className='w-full p-3 bg-transparent' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 3 */}
@@ -157,7 +160,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
+          <img className='w-1/2 bg-transparent p-2' src={mission} alt="" />
         </div>
 
         {/* Box - 4 */}
@@ -174,7 +177,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
+          <img className='w-1/2 bg-transparent p-2' src={impact} alt="" />
         </div>
 
         {/* Box - 5 */}
@@ -191,7 +194,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full p-2 bg-transparent' src={clg_gate} alt="" />
+          <img className='w-1/2 p-2 bg-transparent' src={expertise} alt="" />
         </div>
 
         {/* Box - 6 */}
