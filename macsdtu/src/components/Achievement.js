@@ -13,7 +13,7 @@ export default function Achievement() {
       </div>
 
       {/* Achievements Wall */}
-      <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 mx-14 mt-10">
+      <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 mx-auto mb-10 mt-10">
         <AchievementBox img={Dummy} msg={`"Our President Mr. Nissan Kumar is selected for ICPC Regionals Amarpali"`} />
         <AchievementBox img={Dummy} msg={`"Our ML Head Mr. Divyanshu Bansal is selected for SIH Grand Finale in Hyderabad"`} />
         <AchievementBox img={Dummy} msg={`"Our Tech Head Mr. Ayush Gupta secured a perfect 10 SGPA in his 1st semester"`} />

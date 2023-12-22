@@ -17,7 +17,7 @@ export default function Sponsor() {
       </div>
 
       {/* Sponsor */}
-      <div className="sponsor-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-1 gap-y-10 mx-14 mt-10">
+      <div className="sponsor-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-20 gap-y-10 mx-auto mt-10">
         <SponsorBox img={Sponsor1} />
         <SponsorBox img={Sponsor2} />
         <SponsorBox img={Sponsor3} />
@@ -25,7 +25,7 @@ export default function Sponsor() {
       </div>
 
       {/* Sponsor Us Button */}
-      <div className="flex justify-center mt-20">
+      <div className="flex justify-center mt-20 mb-10">
         <Link to='/'><p className='w-28 border rounded p-1 hover:bg-white hover:text-black text-center'>Sponsor Us</p></Link>
       </div>
     </div>

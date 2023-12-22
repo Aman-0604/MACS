@@ -43,7 +43,7 @@ export default function Gallery() {
       </div>
 
       {/* Gallery Grid */}
-      <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14 mt-10">
+      <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14 mt-10 mb-10">
         <GalleryBox img={GalleryImage1} />
         <GalleryBox img={GalleryImage2} />
         <GalleryBox img={GalleryImage3} />

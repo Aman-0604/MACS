@@ -16,13 +16,13 @@ export default function Event() {
   return (
     <div className="event-section flex flex-col justify-center mt-16">
       {/* Quote */}
-      <div className="qoutes text-center flex flex-col items-center mb-4">
+      <div className="qoutes text-center flex flex-col items-center mb-4 mx-10">
         <Quotes msg={event_quote} />
       </div>
 
       {/* Flagship Event */}
-      <div className="flagship-event-section flex flex-col justify-center items-center mt-20">
-        <p className="text-5xl uppercase">Flagship Events</p>
+      <div className="flagship-event-section flex flex-col justify-center items-center mt-20 mx-10">
+        <p className="text-5xl uppercase text-center">Flagship Events</p>
         <div className="flagship-event-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox img={Event3} />
           <EventBox img={Event4} />
@@ -32,8 +32,8 @@ export default function Event() {
       </div>
 
       {/* Workshops */}
-      <div className="workshop-section flex flex-col justify-center items-center mt-32">
-        <p className="text-5xl uppercase">Workshops</p>
+      <div className="workshop-section flex flex-col justify-center items-center mt-32 mx-10">
+        <p className="text-5xl uppercase text-center">Workshops</p>
         <div className="workshop-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox img={Event1} />
           <EventBox img={Event2} />
@@ -42,8 +42,8 @@ export default function Event() {
       </div>
 
       {/* Hackathons */}
-      <div className="hackathons-section flex flex-col justify-center items-center mt-32">
-        <p className="text-5xl uppercase">Other Events</p>
+      <div className="hackathons-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
+        <p className="text-5xl uppercase text-center">Other Events</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox img={Event7} />
           <EventBox img={Dummy} />
