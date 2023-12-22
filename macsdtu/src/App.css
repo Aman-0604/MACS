@@ -1,0 +1,40 @@
+.card-spotlight-effect {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 0.875rem; */
+    /* border: 1px solid #374151; */
+    /* background-image: linear-gradient(to right, #0f172a, #06171b); */
+    /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .spotlight {
+    pointer-events: none;
+    position: absolute;
+    inset: -1px;
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
+  /* .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  } */
+  
+  /* .greeting {
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+  } */
+/*   
+  .description {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+  } */
