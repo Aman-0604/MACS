@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from "react";
 import { Link } from 'react-router-dom'
 import logo from '../images/macs-logo-2.svg'
 import p1 from '../images/person1.svg'
@@ -31,6 +31,38 @@ let q9 = [{ message: "Social Impact", color: "text-white", size: "text-2xl" }, {
 let q10 = [{ message: "Join the Community", color: "text-white", size: "text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-xl" }]
 
 export default function Home() {
+  const divRef = useRef(null);
+  const [isFocused, setIsFocused] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [opacity, setOpacity] = useState(0);
+
+  const handleMouseMove = (e) => {
+    if (!divRef.current || isFocused) return;
+
+    const div = divRef.current;
+    const rect = div.getBoundingClientRect();
+
+    setPosition({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+  };
+
+  const handleFocus = () => {
+    setIsFocused(true);
+    setOpacity(1);
+  };
+
+  const handleBlur = () => {
+    setIsFocused(false);
+    setOpacity(0);
+  };
+
+  const handleMouseEnter = () => {
+    setOpacity(1);
+  };
+
+  const handleMouseLeave = () => {
+    setOpacity(0);
+  };
+
   return (
     <>
       <div className='flex flex-col justify-center h-full w-full'>
@@ -63,22 +95,33 @@ export default function Home() {
       </div>
       {/* grid system 1 */}
       <div className="gallery-grid w-5/6 mx-auto grid grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
-        <div className="sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
-
-          <div className="description p-1 w-2/3 bg-transparent">
-            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
-              <img className="object-fill bg-transparent" src={p1} alt="" />
+          <div className="relative sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-10 flex justify-center rounded-2xl p-2" ref={divRef}
+            onMouseMove={handleMouseMove}
+            onFocus={handleFocus}
+            onBlur={handleBlur}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}>
+            <div
+            className="spotlight rounded-2xl"
+              style={{
+                opacity,
+                background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,0,0,.16), transparent 40%)`,
+              }}
+            />
+            <div className="description p-1 w-2/3 bg-transparent">
+                <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
+                  <img className="object-fill bg-transparent" src={p1} alt="" />
+                </div>
+                <p className="heading bg-transparent text-3xl mt-1 mb-2">
+                  Department of Applied Mathematics
+                </p>
+                <p className="heading bg-transparent my-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
+                </p>
             </div>
-            <p className="heading bg-transparent text-3xl mt-1 mb-2">
-              Department of Applied Mathematics
-            </p>
-            <p className="heading bg-transparent my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
-            </p>
+            <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
           </div>
-          <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
-        </div>
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
