@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Link } from 'react-router-dom'
+import { AcademicCapIcon, BoltIcon, BuildingLibraryIcon, CodeBracketIcon, LightBulbIcon, RocketLaunchIcon } from '@heroicons/react/24/solid'
 import logo from '../images/macs-logo-2.svg'
 import p1 from '../images/person1.svg'
 import p2 from '../images/person2.svg'
@@ -17,7 +18,7 @@ import arrow6 from '../images/arrow6.svg'
 import Quotes from './Quotes'
 import MessageBox from './Messagebox'
 import clg_svg1 from '../images/college_svg1.svg';
-import clg_svg2 from '../images/college_svg2.svg';
+import clg_gate from '../images/college_gate.svg';
 import clg_svg3 from '../images/college_svg3.svg';
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
@@ -111,9 +112,10 @@ export default function Home() {
             }}
           />
           <div className="description p-1 w-2/3 bg-transparent">
-            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <BuildingLibraryIcon className='h-10 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Department of Applied Mathematics
             </p>
@@ -127,9 +129,10 @@ export default function Home() {
         {/* Box - 2 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <LightBulbIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Vision
             </p>
@@ -137,15 +140,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 3 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <RocketLaunchIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mission
             </p>
@@ -153,15 +157,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 4 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <BoltIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Impact
             </p>
@@ -169,15 +174,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          <img className='w-full bg-transparent p-2' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 5 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <AcademicCapIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Expertise
             </p>
@@ -185,15 +191,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
             </p>
           </div>
-          <img className='w-full bg-transparent' src={clg_svg2} alt="" />
+          <img className='w-full p-2 bg-transparent' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 6 */}
         <div className="col-span-2 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
           <div className="description p-1 w-2/3 bg-transparent">
-            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+            <CodeBracketIcon className='h-10 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
+            {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="object-fill bg-transparent" src={p1} alt="" />
-            </div>
+            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mathematics and Computing Society
             </p>
