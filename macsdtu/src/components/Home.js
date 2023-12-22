@@ -93,37 +93,41 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* grid system 1 */}
+
+      {/* About Us Grid */}
       <div className="gallery-grid w-5/6 mx-auto grid grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
-          <div className="relative sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-10 flex justify-center rounded-2xl p-2" ref={divRef}
-            onMouseMove={handleMouseMove}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}>
-            <div
+        {/* Box - 1 */}
+        <div className="relative sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2" ref={divRef}
+          onMouseMove={handleMouseMove}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}>
+          <div
             className="spotlight rounded-2xl"
-              style={{
-                opacity,
-                background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,0,0,.16), transparent 40%)`,
-              }}
-            />
-            <div className="description p-1 w-2/3 bg-transparent">
-                <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
-                  <img className="object-fill bg-transparent" src={p1} alt="" />
-                </div>
-                <p className="heading bg-transparent text-3xl mt-1 mb-2">
-                  Department of Applied Mathematics
-                </p>
-                <p className="heading bg-transparent my-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
-                </p>
+            style={{
+              opacity,
+              background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,0,0,.16), transparent 40%)`,
+            }}
+          />
+          <div className="description p-1 w-2/3 bg-transparent">
+            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
+              <img className="object-fill bg-transparent" src={p1} alt="" />
             </div>
-            <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
+            <p className="heading bg-transparent text-3xl mt-1 mb-2">
+              Department of Applied Mathematics
+            </p>
+            <p className="heading bg-transparent my-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
+            </p>
           </div>
-          <div className="bg-gray-500 bg-opacity-10 flex flex-col items-center rounded-2xl p-2">
+          <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
+        </div>
+
+        {/* Box - 2 */}
+        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
             </div>
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -135,9 +139,11 @@ export default function Home() {
           </div>
           <img className='w-full bg-transparent' src={clg_svg2} alt="" />
         </div>
+
+        {/* Box - 3 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
             </div>
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -149,9 +155,11 @@ export default function Home() {
           </div>
           <img className='w-full bg-transparent' src={clg_svg2} alt="" />
         </div>
+
+        {/* Box - 4 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
             </div>
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -163,9 +171,11 @@ export default function Home() {
           </div>
           <img className='w-full bg-transparent' src={clg_svg2} alt="" />
         </div>
+
+        {/* Box - 5 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg">
+            <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
             </div>
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -177,9 +187,11 @@ export default function Home() {
           </div>
           <img className='w-full bg-transparent' src={clg_svg2} alt="" />
         </div>
+
+        {/* Box - 6 */}
         <div className="col-span-2 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
           <div className="description p-1 w-2/3 bg-transparent">
-            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg">
+            <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="object-fill bg-transparent" src={p1} alt="" />
             </div>
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -193,13 +205,15 @@ export default function Home() {
         </div>
 
       </div>
-      <div className='w-full h-full'>
+
+      {/* Why to join MACS Seciton */}
+      <div className='w-full h-full m-10'>
         <div className="heading w-full flex flex-col items-center text-center mb-8">
           <Quotes msg={q3}></Quotes>
         </div>
         <div className="flex w-full justify-center">
           <div className="left-pane w-1/3 flex flex-col">
-            <div className="text-center mt-16">
+            <div className="text-center mt-10">
               <div className='flex my-4'>
                 <Quotes msg={q4}></Quotes>
                 <img src={arrow6} alt="" />
@@ -237,17 +251,20 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Join the community Section */}
       <div className="join-page w-full">
+        {/* Quotes and Button */}
         <div className="text-center w-full p-2 m-1">
           <div className="mb-2">
             <Quotes msg={q10} />
-
           </div>
-          <a href='https://www.instagram.com/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></a>
-          <a href='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></a>
+          <Link to='https://www.instagram.com/macs_dtu/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></Link>
+          <Link to='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></Link>
         </div>
+
         {/* Gallery Grid */}
-        <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14">
+        <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14 mt-10 mb-10">
           <MessageBox img={Dummy} name={"Aditya Maurya"} role={"ex-President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
           <MessageBox img={Dummy} name={"Ishan Bhateja"} role={"ex-Vice President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
           <MessageBox img={Dummy} name={"Nikhil Gupta"} role={"ex-Treasurer, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
