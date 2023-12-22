@@ -5,6 +5,7 @@
 * {
     background-color: #171717;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .tooltip {
@@ -15,7 +16,7 @@
     @apply visible z-50;
 }
 
-.image-wrapper:hover > img.zoom {
+.image-wrapper:hover>img.zoom {
     transform: scale(1.1);
     filter: grayscale(0%);
 }
