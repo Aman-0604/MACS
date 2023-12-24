@@ -2,7 +2,7 @@ import React from 'react'
 import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
 import Dinesh from '../images/DineshUdar.jpg'
 import Vivek from '../images/vivek.jpg'
-import Dummy from '../images/dummy.jpg'
+// import Dummy from '../images/dummy.jpg'
 import Nissan from '../images/Nissan.jpg'
 import Aman from '../images/Aman.jpg'
 import Charvi from '../images/Charvi.jpg'
@@ -27,6 +27,8 @@ import Ayan from '../images/Ayan.jpg'
 import Ananya from '../images/Ananya.jpg'
 import Hardik from '../images/Hardik.jpg'
 import Prashant from '../images/Prashant.jpg'
+import Anshumaan from '../images/Anshumaan.jpg'
+import Jalaj from '../images/Jalaj.jpg'
 import Quotes from './Quotes'
 import ImageBox from './Imagebox'
 let team_quote = [{ message: "Teamwork makes the dream work.", color: "text-white", size: "text-3xl" }, { message: "Together, we achieve more than we ever could alone.", color: "text-red-400", size: "text-3xl" }]
@@ -77,8 +79,8 @@ export default function Team() {
           <ImageBox img={Vishwam} name={"Vishwam"} post={"Creative Head"} />
           <ImageBox img={Ananya} name={"Ananya"} post={"Content Head"} />
           <ImageBox img={Ayan} name={"Ayan"} post={"Design Head"} />
-          <ImageBox img={Dummy} name={"Jalaj"} post={"Design Head"} />
-          <ImageBox img={Dummy} name={"Anshumaan"} post={"Design Head"} />
+          <ImageBox img={Jalaj} name={"Jalaj"} post={"Design Head"} />
+          <ImageBox img={Anshumaan} name={"Anshumaan"} post={"Design Head"} />
           <ImageBox img={Aditya} name={"Aditya Pratap"} post={"Tech Head"} />
           <ImageBox img={Ayush} name={"Ayush Gupta"} post={"Tech Head"} />
           <ImageBox img={Rishek} name={"Rishek Jha"} post={"Corporate Head"} />
