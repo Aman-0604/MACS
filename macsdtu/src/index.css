@@ -7,7 +7,9 @@
     color: white;
     font-family: 'Raleway', sans-serif;
 }
-
+body{
+    /* overflow-x: hidden; */
+}
 .tooltip {
     @apply invisible absolute;
 }
