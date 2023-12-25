@@ -88,12 +88,12 @@ export default function Home() {
             <p className='text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
           </div>
           <div className="flex mx-auto justify-center items-center h-48">
-            <img className='h-full' src={p1} alt="" />
-            <img className='h-full' src={p2} alt="" />
-            <img className='h-full' src={p3} alt="" />
-            <img className='h-full' src={p4} alt="" />
-            <img className='h-full' src={p5} alt="" />
-            <img className='h-full' src={p6} alt="" />
+            <img className='left-3 h-full w-1/6' src={p1} alt="" />
+            <img className='left-2 h-full w-1/6' src={p2} alt="" />
+            <img className='left-1 h-full w-1/6' src={p3} alt="" />
+            <img className='right-1 h-full w-1/6' src={p4} alt="" />
+            <img className='right-2 h-full w-1/6' src={p5} alt="" />
+            <img className='right-3 h-full w-1/6' src={p6} alt="" />
           </div>
         </div>
       </div>
@@ -198,7 +198,7 @@ export default function Home() {
         </div>
 
         {/* Box - 6 */}
-        <div className="col-span-2 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
+        <div className="bord-grad col-span-2 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
           <div className="description p-1 w-2/3 bg-transparent">
             <CodeBracketIcon className='h-10 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
             {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
@@ -217,11 +217,11 @@ export default function Home() {
       </div>
 
       {/* Why to join MACS Seciton */}
-      <div className='w-full h-full m-10'>
-        <div className="heading w-full flex flex-col items-center text-center mb-8">
+      <div className='h-full m-10'>
+        <div className="heading flex flex-col items-center text-center mb-8">
           <Quotes msg={q3}></Quotes>
         </div>
-        <div className="flex w-full justify-center">
+        <div className="flex justify-center">
           <div className="left-pane w-1/3 flex flex-col">
             <div className="text-center mt-10">
               <div className='flex my-4'>
@@ -238,7 +238,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mid-pane w-1/4 text-center relative">
+          <div className="mid-pane w-1/3 text-center relative">
             <img className='h-4/5 mb-0 w-full' src={p1} alt="" />
             <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "text-2xl" }]} />
           </div>
@@ -265,7 +265,7 @@ export default function Home() {
       {/* Join the community Section */}
       <div className="join-page w-full">
         {/* Quotes and Button */}
-        <div className="text-center w-full p-2 m-1">
+        <div className="text-center p-2 m-1">
           <div className="mb-2">
             <Quotes msg={q10} />
           </div>
