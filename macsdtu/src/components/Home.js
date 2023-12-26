@@ -79,8 +79,8 @@ export default function Home() {
             <Quotes msg={q2} />
           </div>
           <div className="w-full mt-4 mb-3 flex justify-center">
-            <Link to="/"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
-            <Link to='/'><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
+            <Link to='mailto:macs@dtu.ac.in' target="_blank"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
+            <Link to='mailto:macs@dtu.ac.in' target="_blank"><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
           </div>
         </div>
         <div className="w-full flex flex-col p-0 mx-auto justify-center mt-10">
