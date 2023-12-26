@@ -23,16 +23,16 @@ import clg_svg3 from '../images/college_svg3.svg';
 import expertise from '../images/expertise.svg';
 import impact from '../images/impact.svg';
 import mission from '../images/mission.svg';
-let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
-let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
-let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
-let q4 = [{ message: "Skill Development", color: "text-white", size: "text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "text-2xl" }];
-let q5 = [{ message: "Potential Growth", color: "text-white", size: "text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", size: "text-2xl" }]
-let q6 = [{ message: "Leadership Opportunities", color: "text-white", size: "text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", size: "text-2xl" }];
-let q7 = [{ message: "Networking", color: "text-white", size: "text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", size: "text-2xl" }]
-let q8 = [{ message: "Resume Building", color: "text-white", size: "text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", size: "text-2xl" }]
-let q9 = [{ message: "Social Impact", color: "text-white", size: "text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "text-2xl" }]
-let q10 = [{ message: "Join the Community", color: "text-white", size: "text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-xl" }]
+let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }]
+let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
+let q3 = [{ message: "Why to Join", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }];
+let q4 = [{ message: "Skill Development", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
+let q5 = [{ message: "Potential Growth", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q6 = [{ message: "Leadership Opportunities", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
+let q7 = [{ message: "Networking", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q8 = [{ message: "Resume Building", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q9 = [{ message: "Social Impact", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q10 = [{ message: "Join the Community", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 
 export default function Home() {
   const divRef = useRef(null);
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="w-full flex flex-col p-0 mx-auto justify-center mt-10">
           <div>
-            <p className='text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
+            <p className='sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
           </div>
           <div className="flex mx-auto justify-center items-center h-48">
             <img className='left-3 h-full w-1/6' src={p1} alt="" />
@@ -240,7 +240,7 @@ export default function Home() {
           </div>
           <div className="mid-pane w-1/3 text-center relative">
             <img className='h-4/5 mb-0 w-full' src={p1} alt="" />
-            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "text-2xl" }]} />
+            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]} />
           </div>
           <div className="right-pane w-1/3 flex flex-col">
             <div className="text-center mt-16">
