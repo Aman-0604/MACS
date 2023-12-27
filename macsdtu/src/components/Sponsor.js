@@ -26,7 +26,7 @@ export default function Sponsor() {
 
       {/* Sponsor Us Button */}
       <div className="flex justify-center mt-20 mb-10">
-        <Link to='/'><p className='w-28 border rounded p-1 hover:bg-white hover:text-black text-center'>Sponsor Us</p></Link>
+        <Link to='/'><p className='stylish-2 w-28 border rounded p-1 hover:bg-white hover:text-black text-center'>Sponsor Us</p></Link>
       </div>
     </div>
   )

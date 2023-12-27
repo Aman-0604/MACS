@@ -64,70 +64,111 @@
 		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
 		background-image: linear-gradient(#ff0000, rgba(247, 96, 121, 0));
     opacity: 1;
-		animation: rotate 3.5s linear infinite forwards;
+		animation: rotate 2s linear infinite;
 }
 .bord-grad::after{
   content: '';
 		position: absolute;
 		z-index: -1;
-		left: 6px;
-		top: 6px;
-		width: calc(100% - 12px);
-		height: calc(100% - 12px);
+		left: 3px;
+		top: 3px;
+		width: calc(100% - 6px);
+		height: calc(100% - 6px);
 		background: rgb(31, 31, 31);
 		border-radius: 1rem;
 }
 @keyframes rotate {
-  0%{
+  /* 0%{
     transform: rotate(0deg);
+  } */
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
   }
   100%{
     transform: rotate(360deg);
   }
 }
-.right-1{
-  /* background-color: #ff0000; */
+.right{
   position: relative;
-  left:60%;
-  animation: entry 1.5s ease 50ms 1 both;
+  opacity: 0;
+  animation: entry 1.5s ease 1 both;
 }
-.right-2{
-  /* background-color: #ff0000; */
+.left{
   position: relative;
-  left:80%;
-  animation: entry 1.5s ease 50ms 1 both;
+  opacity: 0;
+  animation: entry 1.5s ease 1 both;
 }
-.right-3{
-  /* background-color: #ff0000; */
-  position: relative;
-  left:100%;
-  animation: entry 1.5s ease 50ms 1 both;
+.r-1{
+  left:70%;
+}
+.r-2{
+  left:110%;
+}
+.r-3{
+  left:150%;
 }
 @keyframes entry {
   100%{
+    opacity: 1;
     left:0;
   }
 }
-.left-1{
-  /* background-color: #ff0000; */
-  position: relative;
-  left:-60%;
-  animation: entry 1.5s ease 50ms 1 both;
+.l-1{
+  left:-70%;
 }
-.left-2{
-  /* background-color: #ff0000; */
-  position: relative;
-  left:-80%;
-  animation: entry 1.5s ease 50ms 1 both;
+.l-2{
+  left:-110%;
 }
-.left-3{
-  /* background-color: #ff0000; */
-  position: relative;
-  left:-100%;
-  animation: entry 1.5s ease 50ms 1 both;
+.l-3{
+  left:-150%;
 }
-@keyframes entry {
+.stylish-1{
+  background-image: linear-gradient(45deg,rgb(248 113 113) 50%,rgb(248 113 113), transparent ,transparent 50%);
+  background-size: 300%;
+  background-position-x: 100%;
+  transition: all ease 500ms;
+}
+.stylish-1:hover{
+  background-position-x: 0;
+}
+.stylish-2{
+  background-image: linear-gradient(45deg,white 50%,white, transparent ,transparent 50%);
+  background-size: 300%;
+  background-position-x: 100%;
+  transition: all ease 500ms;
+}
+.stylish-2:hover{
+  background-position-x: 0;
+}
+.arrow{
+  width:30%;
+}
+.macs-mem{
+  transform: scale(1.5);
+}
+.impact:hover{
+  animation: glow 1s ease 30ms infinite alternate;
+}
+@keyframes glow {
+  0%{
+    box-shadow: 0 0 .5rem rgb(255, 86, 86);
+  }
   100%{
-    left:0;
+    box-shadow: 0 0 1.5rem rgb(255, 86, 86);
+  }
+}
+@media screen and (width<640px){
+  .extra-small{
+    font-size: 0.7rem;
+    line-height: 1.15em;
+  }
+  .arr-1{
+    transform:rotate(30deg);
   }
 }
