@@ -23,16 +23,16 @@ import clg_svg3 from '../images/college_svg3.svg';
 import expertise from '../images/expertise.svg';
 import impact from '../images/impact.svg';
 import mission from '../images/mission.svg';
-let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-5xl" }]
-let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-2xl" }];
-let q3 = [{ message: "Why to Join", color: "text-white", size: "text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-4xl" }];
-let q4 = [{ message: "Skill Development", color: "text-white", size: "text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "text-2xl" }];
-let q5 = [{ message: "Potential Growth", color: "text-white", size: "text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", size: "text-2xl" }]
-let q6 = [{ message: "Leadership Opportunities", color: "text-white", size: "text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", size: "text-2xl" }];
-let q7 = [{ message: "Networking", color: "text-white", size: "text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", size: "text-2xl" }]
-let q8 = [{ message: "Resume Building", color: "text-white", size: "text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", size: "text-2xl" }]
-let q9 = [{ message: "Social Impact", color: "text-white", size: "text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "text-2xl" }]
-let q10 = [{ message: "Join the Community", color: "text-white", size: "text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-xl" }]
+let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-3xl md:text-4xl lg:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-3xl md:text-4xl lg:text-5xl" }]
+let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-lg md:text-xl lg:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-lg md:text-xl lg:text-2xl" }];
+let q3 = [{ message: "Why to Join", color: "text-white", size: "text-2xl md:text-3xl lg:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-2xl md:text-3xl lg:text-4xl" }];
+let q4 = [{ message: "Skill Development", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }];
+let q5 = [{ message: "Potential Growth", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
+let q6 = [{ message: "Leadership Opportunities", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }];
+let q7 = [{ message: "Networking", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
+let q8 = [{ message: "Resume Building", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
+let q9 = [{ message: "Social Impact", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
+let q10 = [{ message: "Join the Community", color: "text-white", size: "text-lg md:text-xl lg:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-sm md:text-lg lg:text-xl" }]
 
 export default function Home() {
   const divRef = useRef(null);
@@ -70,7 +70,7 @@ export default function Home() {
   return (
     <>
       <div className='flex flex-col justify-center h-full w-full'>
-        <div className="image w-full h-3/4 flex justify-center mt-16 mb-8">
+        <div className="image w-full h-3/4 flex justify-center mt-8 md:mt-16 mb-4 md:mb-8">
           <img src={logo} alt="" />
         </div>
         <div className="qoutes text-center flex flex-col items-center mb-4">
@@ -79,29 +79,29 @@ export default function Home() {
             <Quotes msg={q2} />
           </div>
           <div className="w-full mt-4 mb-3 flex justify-center">
-            <Link to="/"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
-            <Link to='/'><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
+            <Link to="/"><p className='stylish-1 text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:text-black'>Join Us</p></Link>
+            <Link to='/'><p className='stylish-2 mx-3 w-28 border rounded p-1 hover:text-black'>Sponsor Us</p></Link>
           </div>
         </div>
-        <div className="w-full flex flex-col p-0 mx-auto justify-center mt-10">
+        <div className="w-full flex flex-col p-0 mx-auto justify-center md:mt-10 overflow-x-hidden">
           <div>
-            <p className='text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
+            <p className='text-lg md:text-xl lg:text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
           </div>
           <div className="flex mx-auto justify-center items-center h-48">
-            <img className='left-3 h-full w-1/6' src={p1} alt="" />
-            <img className='left-2 h-full w-1/6' src={p2} alt="" />
-            <img className='left-1 h-full w-1/6' src={p3} alt="" />
-            <img className='right-1 h-full w-1/6' src={p4} alt="" />
-            <img className='right-2 h-full w-1/6' src={p5} alt="" />
-            <img className='right-3 h-full w-1/6' src={p6} alt="" />
+            <img className='left l-3 h-full w-1/6' src={p1} alt="" />
+            <img className='left l-2 h-full w-1/6' src={p2} alt="" />
+            <img className='left l-1 h-full w-1/6' src={p3} alt="" />
+            <img className='right r-1 h-full w-1/6' src={p4} alt="" />
+            <img className='right r-2 h-full w-1/6' src={p5} alt="" />
+            <img className='right r-3 h-full w-1/6' src={p6} alt="" />
           </div>
         </div>
       </div>
 
       {/* About Us Grid */}
-      <div className="gallery-grid w-5/6 mx-auto grid grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
+      <div className="gallery-grid w-5/6 mx-auto grid grid-cols-1 md:grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
         {/* Box - 1 */}
-        <div className="relative sm:col-span-2 col-span-4 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2" ref={divRef}
+        <div className="relative md:col-span-2 bg-gray-500 bg-opacity-5 flex md:justify-center rounded-2xl p-2 flex-col items-center md:flex-row" ref={divRef}
           onMouseMove={handleMouseMove}
           onFocus={handleFocus}
           onBlur={handleBlur}
@@ -114,8 +114,8 @@ export default function Home() {
               background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,0,0,.16), transparent 40%)`,
             }}
           />
-          <div className="description p-1 w-2/3 bg-transparent">
-            <BuildingLibraryIcon className='h-10 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
+          <div className="description p-1 md:w-2/3 bg-transparent">
+            <BuildingLibraryIcon className='h-10 mx-auto md:ml-0 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
             {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
               <img className="object-fill bg-transparent" src={p1} alt="" />
             </div> */}
@@ -126,16 +126,13 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
             </p>
           </div>
-          <img className='mt-auto w-1/3 bg-transparent' src={clg_svg1} alt="" />
+          <img className='mt-auto md:w-1/3 bg-transparent w-1/2' src={clg_svg1} alt="" />
         </div>
 
         {/* Box - 2 */}
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <LightBulbIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Vision
             </p>
@@ -150,9 +147,6 @@ export default function Home() {
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <RocketLaunchIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mission
             </p>
@@ -164,12 +158,9 @@ export default function Home() {
         </div>
 
         {/* Box - 4 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
-            <BoltIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
+            <BoltIcon className='thunder h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Impact
             </p>
@@ -184,9 +175,6 @@ export default function Home() {
         <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <AcademicCapIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 mx-auto w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="mx-auto object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Expertise
             </p>
@@ -198,12 +186,9 @@ export default function Home() {
         </div>
 
         {/* Box - 6 */}
-        <div className="bord-grad col-span-2 bg-gray-500 bg-opacity-5 flex justify-center rounded-2xl p-2">
-          <div className="description p-1 w-2/3 bg-transparent">
-            <CodeBracketIcon className='h-10 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
+        <div className="bord-grad bg-gray-500 bg-opacity-5 flex flex-col md:flex-row items-center md:col-span-2 md:justify-center rounded-2xl p-2">
+          <div className="description p-1 md:w-2/3 bg-transparent">
+            <CodeBracketIcon className='h-10 mx-auto md:ml-0 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mathematics and Computing Society
             </p>
@@ -211,49 +196,49 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, officia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error vel illum quod harum iusto eius?
             </p>
           </div>
-          <img className='mt-auto w-1/3 bg-transparent' src={clg_svg3} alt="" />
+          <img className='mt-auto md:w-1/3 bg-transparent w-1/2' src={clg_svg3} alt="" />
         </div>
 
       </div>
 
       {/* Why to join MACS Seciton */}
-      <div className='h-full m-10'>
+      <div className='join-sec m-8'>
         <div className="heading flex flex-col items-center text-center mb-8">
           <Quotes msg={q3}></Quotes>
         </div>
-        <div className="flex justify-center">
+        <div className="why-join flex justify-center">
           <div className="left-pane w-1/3 flex flex-col">
-            <div className="text-center mt-10">
+            <div className="text-center mt-4 sm:mt-8">
               <div className='flex my-4'>
                 <Quotes msg={q4}></Quotes>
-                <img src={arrow6} alt="" />
+                <img className="arrow arr-1 bg-transparent" src={arrow6} alt="" />
               </div>
               <div className='flex my-4'>
                 <Quotes msg={q5}></Quotes>
-                <img src={arrow5} alt="" />
+                <img className="arrow" src={arrow5} alt="" />
               </div>
               <div className='flex my-4'>
                 <Quotes msg={q6}></Quotes>
-                <img src={arrow4} alt="" />
+                <img className="arrow" src={arrow4} alt="" />
               </div>
             </div>
           </div>
-          <div className="mid-pane w-1/3 text-center relative">
-            <img className='h-4/5 mb-0 w-full' src={p1} alt="" />
-            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "text-2xl" }]} />
+          <div className="mid-pane flex flex-col justify-center w-1/4 text-center relative bg-transparent">
+            <img className='macs-mem mx-auto h-2/5 md:h-3/5 bg-transparent' src={p1} alt="" />
+            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "extra-small sm:text-lg lg:text-2xl" }]} />
           </div>
           <div className="right-pane w-1/3 flex flex-col">
-            <div className="text-center mt-16">
+            <div className="text-center mt-8 sm:mt-16">
               <div className='flex my-4'>
-                <img src={arrow3} alt="" />
+                <img className="arrow" src={arrow3} alt="" />
                 <Quotes msg={q7}></Quotes>
               </div>
               <div className='flex my-4'>
-                <img src={arrow2} alt="" />
+                <img className="arrow" src={arrow2} alt="" />
                 <Quotes msg={q8}></Quotes>
               </div>
               <div className='flex my-4'>
-                <img src={arrow1} alt="" />
+                <img className="arrow" src={arrow1} alt="" />
                 <Quotes msg={q9}></Quotes>
               </div>
             </div>
@@ -269,8 +254,8 @@ export default function Home() {
           <div className="mb-2">
             <Quotes msg={q10} />
           </div>
-          <Link to='https://www.instagram.com/macs_dtu/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>Instagram</span></Link>
-          <Link to='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='border rounded p-1 m-2 text-lg hover:text-black hover:bg-white'>LinkedIn</span></Link>
+          <Link to='https://www.instagram.com/macs_dtu/' target='_blank' rel="noreferrer"><span className='stylish-2 border rounded p-1 m-2 text-sm md:text-lg hover:text-black hover:bg-white'>Instagram</span></Link>
+          <Link to='https://www.linkedin.com/company/mathematics-and-computing/' target='_blank' rel="noreferrer"><span className='stylish-2 border rounded p-1 m-2 text-sm md:text-lg hover:text-black hover:bg-white'>LinkedIn</span></Link>
         </div>
 
         {/* Gallery Grid */}
