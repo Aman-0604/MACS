@@ -23,16 +23,16 @@ import clg_svg3 from '../images/college_svg3.svg';
 import expertise from '../images/expertise.svg';
 import impact from '../images/impact.svg';
 import mission from '../images/mission.svg';
-let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-3xl md:text-4xl lg:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-3xl md:text-4xl lg:text-5xl" }]
-let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", size: "text-lg md:text-xl lg:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-lg md:text-xl lg:text-2xl" }];
-let q3 = [{ message: "Why to Join", color: "text-white", size: "text-2xl md:text-3xl lg:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-2xl md:text-3xl lg:text-4xl" }];
-let q4 = [{ message: "Skill Development", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }];
-let q5 = [{ message: "Potential Growth", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
-let q6 = [{ message: "Leadership Opportunities", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }];
-let q7 = [{ message: "Networking", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
-let q8 = [{ message: "Resume Building", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
-let q9 = [{ message: "Social Impact", color: "text-white", size: "extra-small sm:text-lg lg:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "extra-small sm:text-lg lg:text-2xl" }]
-let q10 = [{ message: "Join the Community", color: "text-white", size: "text-lg md:text-xl lg:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-sm md:text-lg lg:text-xl" }]
+let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-3xl md:text-4xl lg:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-3xl md:text-4xl lg:text-5xl" }]
+let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-lg md:text-xl lg:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-lg md:text-xl lg:text-2xl" }];
+let q3 = [{ message: "Why to Join", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-2xl md:text-3xl lg:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-2xl md:text-3xl lg:text-4xl" }];
+let q4 = [{ message: "Skill Development", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }];
+let q5 = [{ message: "Potential Growth", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }]
+let q6 = [{ message: "Leadership Opportunities", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }];
+let q7 = [{ message: "Networking", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }]
+let q8 = [{ message: "Resume Building", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }]
+let q9 = [{ message: "Social Impact", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:extra-small sm:text-lg lg:text-2xl" }]
+let q10 = [{ message: "Join the Community", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-lg md:text-xl lg:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", smSize: "sm:text-sm md:text-lg lg:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 
 export default function Home() {
   const divRef = useRef(null);
@@ -79,13 +79,13 @@ export default function Home() {
             <Quotes msg={q2} />
           </div>
           <div className="w-full mt-4 mb-3 flex justify-center">
-            <Link to="/"><p className='stylish-1 text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:text-black'>Join Us</p></Link>
-            <Link to='/'><p className='stylish-2 mx-3 w-28 border rounded p-1 hover:text-black'>Sponsor Us</p></Link>
+            <Link to='mailto:macs@dtu.ac.in' target="_blank"><p className='text-red-400 mx-3 border border-red-400 rounded p-1 w-28 hover:bg-red-400 hover:text-black'>Join Us</p></Link>
+            <Link to='mailto:macs@dtu.ac.in' target="_blank"><p className='mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black'>Sponsor Us</p></Link>
           </div>
         </div>
         <div className="w-full flex flex-col p-0 mx-auto justify-center md:mt-10 overflow-x-hidden">
           <div>
-            <p className='text-lg md:text-xl lg:text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
+            <p className='sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl text-neutral-500 text-center'>Work with the brightest minds at DTU</p>
           </div>
           <div className="flex mx-auto justify-center items-center h-48">
             <img className='left l-3 h-full w-1/6' src={p1} alt="" />
@@ -223,12 +223,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mid-pane flex flex-col justify-center w-1/4 text-center relative bg-transparent">
-            <img className='macs-mem mx-auto h-2/5 md:h-3/5 bg-transparent' src={p1} alt="" />
-            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", size: "extra-small sm:text-lg lg:text-2xl" }]} />
+          <div className="mid-pane w-1/3 text-center flex flex-col justify-center relative bg-transparent">
+            <img className='macs-mem mx-auto h-2/5 md:h-3/5 mb-0 bg-transparent' src={p1} alt="" />
+            <Quotes msg={[{ message: "MACS MEMBER", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]} />
           </div>
           <div className="right-pane w-1/3 flex flex-col">
-            <div className="text-center mt-8 sm:mt-16">
+            <div className="text-center mt-12 sm:mt-20">
               <div className='flex my-4'>
                 <img className="arrow" src={arrow3} alt="" />
                 <Quotes msg={q7}></Quotes>

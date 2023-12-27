@@ -7,9 +7,11 @@
     color: white;
     font-family: 'Raleway', sans-serif;
 }
-body{
+
+body {
     /* overflow-x: hidden; */
 }
+
 .tooltip {
     @apply invisible absolute;
 }
@@ -21,4 +23,16 @@ body{
 .image-wrapper:hover>img.zoom {
     transform: scale(1.1);
     filter: grayscale(0%);
+}
+
+.eventbox-wrapper:hover>img.event-image {
+    filter: blur(5px);
+}
+
+.eventbox-wrapper>.content.slide-right {
+    transform: translateX(100%);
+}
+
+.eventbox-wrapper:hover>.content.slide-right {
+    transform: translateX(0);
 }
