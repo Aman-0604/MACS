@@ -78,9 +78,6 @@
 		border-radius: 1rem;
 }
 @keyframes rotate {
-  /* 0%{
-    transform: rotate(0deg);
-  } */
   25%{
     transform: rotate(90deg);
   }
@@ -152,8 +149,11 @@
 .macs-mem{
   transform: scale(1.5);
 }
-.impact:hover{
+.glower:hover{
   animation: glow 1s ease 30ms infinite alternate;
+}
+.glower.impact:hover img{
+  animation: rotate 3.5s linear infinite;
 }
 @keyframes glow {
   0%{

@@ -130,7 +130,7 @@ export default function Home() {
         </div>
 
         {/* Box - 2 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <LightBulbIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
 
         {/* Box - 3 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <RocketLaunchIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
 
         {/* Box - 4 */}
-        <div className="impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <BoltIcon className='thunder h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
 
         {/* Box - 5 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <AcademicCapIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
