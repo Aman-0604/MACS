@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HomeIcon, CalendarIcon, PhotoIcon, StarIcon, UserGroupIcon } from '@heroicons/react/24/solid'
+import { HomeIcon, CalendarIcon, PhotoIcon, StarIcon, UserGroupIcon, BriefcaseIcon } from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     return (
@@ -23,6 +23,12 @@ export default function Navbar() {
                     <span className='tooltip rounded-md text-sm shadow-md p-2 bg-black text-neutral-300 mt-2 -mx-3'>Sponsor</span>
                 </li>
             </Link> */}
+            <Link to="/placement">
+                <li className="has-tooltip headerList list-none mx-3">
+                    <BriefcaseIcon className='w-7 h-7 md:w-9 md:h-9 lg:w-9 lg:h-9 xl:w-9 xl-h-9 text-neutral-300 scale-110 border-b border-neutral-600 transform hover:scale-125 rounded-md p-1' />
+                    <span className='tooltip rounded-md text-sm shadow-md p-2 bg-black text-neutral-300 mt-2 -mx-3'>Placement</span>
+                </li>
+            </Link>
             <Link to="/gallery">
                 <li className="has-tooltip headerList list-none mx-3">
                     <PhotoIcon className='w-7 h-7 md:w-9 md:h-9 lg:w-9 lg:h-9 xl:w-9 xl-h-9 text-neutral-300 border-b scale-110 border-neutral-600 transform hover:scale-125 rounded-md p-1' />
