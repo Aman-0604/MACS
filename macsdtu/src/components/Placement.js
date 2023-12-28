@@ -14,8 +14,8 @@ export default function Placement() {
 
             {/* Achievements Wall */}
             <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 mx-auto mb-10 mt-10">
-                <PlacementBox img={DummyWithoutBox} name={"Shresth Jain"} company={"Gameskraft"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Siddharth Bihani"} company={"Atlassian"} linkedin={""} companylogo={""} />
+                <PlacementBox img={DummyWithoutBox} name={"Shresth Jain"} company={"Gameskraft"} position={"SDE"} linkedin={""} companylogo={""} />
+                {/* <PlacementBox img={DummyWithoutBox} name={"Siddharth Bihani"} company={"Atlassian"} linkedin={""} companylogo={""} />
                 <PlacementBox img={DummyWithoutBox} name={"Vidyanshu Mishra"} company={"Sprinklr"} linkedin={""} companylogo={""} />
                 <PlacementBox img={DummyWithoutBox} name={"Shrey Singh"} company={"Metalbook"} linkedin={""} companylogo={""} />
                 <PlacementBox img={DummyWithoutBox} name={"Lakshita Singh"} company={"SAP"} linkedin={""} companylogo={""} />
@@ -23,7 +23,7 @@ export default function Placement() {
                 <PlacementBox img={DummyWithoutBox} name={"Rahul Sharma"} company={"Amazon"} linkedin={"https://www.linkedin.com/in/therahulsharrma/"} companylogo={""} />
                 <PlacementBox img={DummyWithoutBox} name={"Kunal Sharma"} company={"Amazon"} linkedin={"https://www.linkedin.com/in/kunal-sharma-469962166/"} companylogo={""} />
                 <PlacementBox img={DummyWithoutBox} name={"Vibhor Saxena"} company={"Fractal"} linkedin={"https://www.linkedin.com/in/vibhor-saxena-a847bb130/"} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Sachin Duhan"} company={"Euler Motors"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={""} />
+                <PlacementBox img={DummyWithoutBox} name={"Sachin Duhan"} company={"Euler Motors"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={""} /> */}
             </div>
         </div>
     )
