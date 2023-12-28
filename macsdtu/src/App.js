@@ -6,6 +6,7 @@ import Event from './components/Event';
 import Gallery from './components/Gallery';
 import Team from './components/Team';
 import Sponsor from './components/Sponsor';
+import Placement from './components/Placement';
 import {
   BrowserRouter,
   Routes,
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/sponsor" element={<Sponsor />} />
+        <Route exact path="/placement" element={<Placement />} />
       </Routes>
     </BrowserRouter>
   );
