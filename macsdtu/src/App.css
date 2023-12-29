@@ -143,6 +143,12 @@
 .stylish-2:hover{
   background-position-x: 0;
 }
+.stylish-2:hover svg{
+  fill:black;
+}
+.stylish-2:hover *{
+  color: black;
+}
 .arrow{
   width:30%;
 }
