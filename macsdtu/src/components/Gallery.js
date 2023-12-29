@@ -35,7 +35,7 @@ import GalleryImage31 from '../images/memory31.png'
 import GalleryImage32 from '../images/memory32.jpg'
 import GalleryImage33 from '../images/memory33.png'
 import GalleryImage34 from '../images/memory34.png'
-let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
+let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Gallery() {
   return (

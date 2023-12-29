@@ -19,7 +19,7 @@ import Sachin from '../images/Sachin.png'
 import Kunal from '../images/Kunal.png'
 import Siddharth from '../images/Siddharth.png'
 import Aksht from '../images/Aksht.png'
-let achievement_quote = [{ message: "Turning aspirations into achievements, our members not only dream but also conquer.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Each placement conquered is a testament to their dedication, resilience,", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "and the unwavering pursuit of excellence.", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
+let achievement_quote = [{ message: "Turning aspirations into achievements, our members not only dream but also conquer.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Each placement conquered is a testament to their dedication, resilience,", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "and the unwavering pursuit of excellence.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Placement() {
     return (

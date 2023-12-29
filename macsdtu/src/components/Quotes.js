@@ -4,7 +4,7 @@ const Quotes = (props) => {
   return (
     <div>
       {props.msg.map((ele, index) => {
-        return <p key={index} className={`${ele.color} ${ele.smSize} ${ele.mdSize} ${ele.lgSize} ${ele.xlSize}`}>{ele.message}</p>
+        return <p key={index} className={`${ele.color} ${ele.size} ${ele.smSize} ${ele.mdSize} ${ele.lgSize} ${ele.xlSize}`}>{ele.message}</p>
       })
       }
     </div>
