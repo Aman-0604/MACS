@@ -163,7 +163,7 @@
     box-shadow: 0 0 1.5rem rgb(255, 86, 86);
   }
 }
-@media screen and (width<640px){
+@media screen and (width<410px){
   .extra-small{
     font-size: 0.7rem;
     line-height: 1.15em;
