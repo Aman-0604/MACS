@@ -2,6 +2,14 @@ import React from 'react'
 import Quotes from './Quotes'
 import PlacementBox from './PlacementBox'
 import DummyWithoutBox from '../images/dummywithoutbg.png'
+import Atlassian from '../logos/Atlassian.png'
+import Amazon from '../logos/Amazon.jpg'
+import Sprinklr from '../logos/Sprinklr.png'
+import Gameskraft from '../logos/GamesKraft.jpg'
+import Rippling from '../logos/Rippling.png'
+import Metalbook from '../logos/Metalbook.png'
+import Euler from '../logos/Euler.png'
+import Fractal from '../logos/Fractal.png'
 let achievement_quote = [{ message: "Turning aspirations into achievements, our members not only dream but also conquer.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Each placement conquered is a testament to their dedication, resilience,", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "and the unwavering pursuit of excellence.", color: "text-red-400", smSize: "sm:text-xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Placement() {
@@ -13,17 +21,16 @@ export default function Placement() {
             </div>
 
             {/* Achievements Wall */}
-            <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 mx-auto mb-10 mt-10">
-                <PlacementBox img={DummyWithoutBox} name={"Shresth Jain"} company={"Gameskraft"} position={"SDE"} linkedin={""} companylogo={""} />
-                {/* <PlacementBox img={DummyWithoutBox} name={"Siddharth Bihani"} company={"Atlassian"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Vidyanshu Mishra"} company={"Sprinklr"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Shrey Singh"} company={"Metalbook"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Lakshita Singh"} company={"SAP"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Aksht Jain"} company={"Rippling"} linkedin={""} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Rahul Sharma"} company={"Amazon"} linkedin={"https://www.linkedin.com/in/therahulsharrma/"} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Kunal Sharma"} company={"Amazon"} linkedin={"https://www.linkedin.com/in/kunal-sharma-469962166/"} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Vibhor Saxena"} company={"Fractal"} linkedin={"https://www.linkedin.com/in/vibhor-saxena-a847bb130/"} companylogo={""} />
-                <PlacementBox img={DummyWithoutBox} name={"Sachin Duhan"} company={"Euler Motors"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={""} /> */}
+            <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mx-auto mb-10 mt-10">
+                <PlacementBox img={DummyWithoutBox} name={"Shresth Jain"} company={"Gameskraft"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/shresth-jain-2000/"} companylogo={Gameskraft} />
+                <PlacementBox img={DummyWithoutBox} name={"Siddharth Bihani"} company={"Atlassian"} position={"SDE"} linkedin={"https://www.linkedin.com/in/siddharth-bihani/"} companylogo={Atlassian} />
+                <PlacementBox img={DummyWithoutBox} name={"Vidyanshu Mishra"} company={"Sprinklr"} position={"Product Analyst"} linkedin={"https://www.linkedin.com/in/vidyanshumishra1729/"} companylogo={Sprinklr} />
+                <PlacementBox img={DummyWithoutBox} name={"Shrey Singh"} company={"Metalbook"} position={"Software Developer"} linkedin={"https://www.linkedin.com/in/shrey-singh-68731b197/"} companylogo={Metalbook} />
+                <PlacementBox img={DummyWithoutBox} name={"Aksht Jain"} company={"Rippling"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/aksht-jain-b65175119/"} companylogo={Rippling} />
+                <PlacementBox img={DummyWithoutBox} name={"Rahul Sharma"} company={"Amazon"} position={"Business Analyst"} linkedin={"https://www.linkedin.com/in/therahulsharrma/"} companylogo={Amazon} />
+                <PlacementBox img={DummyWithoutBox} name={"Kunal Sharma"} company={"Amazon"} position={"Data Analyst"} linkedin={"https://www.linkedin.com/in/kunal-sharma-469962166/"} companylogo={Amazon} />
+                <PlacementBox img={DummyWithoutBox} name={"Vibhor Saxena"} company={"Fractal"} position={"Data Scientist"} linkedin={"https://www.linkedin.com/in/vibhor-saxena-a847bb130/"} companylogo={Fractal} />
+                <PlacementBox img={DummyWithoutBox} name={"Sachin Duhan"} company={"Euler Motors"} position={"MTS"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={Euler} />
             </div>
         </div>
     )
