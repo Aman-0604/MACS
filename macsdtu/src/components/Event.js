@@ -1,7 +1,7 @@
 import React from 'react'
 import Quotes from './Quotes'
 import EventBox from './Eventbox'
-import Dummy from '../images/dummy.jpg'
+// import Dummy from '../images/dummy.jpg'
 import Event1 from '../images/event1.jpeg'
 import Event2 from '../images/event2.jpeg'
 import Event3 from '../images/event3.jpeg'
@@ -10,6 +10,7 @@ import Event5 from '../images/event5.jpeg'
 import Event6 from '../images/event6.jpeg'
 import Event7 from '../images/event7.jpeg'
 import Event8 from '../images/event8.jpeg'
+import Event9 from '../images/event9.png'
 let event_quote = [{ message: "Moments that matter, memories that linger.", color: "text-white",size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our events, where every gathering becomes a celebration of shared experiences.", color: "text-red-400",size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Event() {
@@ -46,7 +47,7 @@ export default function Event() {
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Other Events</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox img={Event7} />
-          <EventBox img={Dummy} />
+          <EventBox img={Event9} />
         </div>
       </div>
 
