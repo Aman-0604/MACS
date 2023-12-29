@@ -48,7 +48,7 @@ export default function Team() {
 
       {/* Faculty Section */}
       <div className="faculty-section flex flex-col justify-center items-center mt-16">
-        <p className="sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Facutly Advisors</p>
+        <p className="sm:text-3xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Facutly Advisors</p>
         <div className="faculty-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Dinesh} name={"Dr. Dinesh Udar"} post={"Coordinator"} />
           <ImageBox img={Vivek} name={"Dr. Vivek Kumar"} post={"Co-Coordinator"} />
@@ -57,7 +57,7 @@ export default function Team() {
 
       {/* Senior Council */}
       <div className="senior-council-section flex flex-col justify-center items-center mt-32">
-        <p className="sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Senior Council</p>
+        <p className="sm:text-3xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Senior Council</p>
         <div className="senior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Nissan} name={"Nissan Kumar"} post={"President"} />
           <ImageBox img={Charvi} name={"Charvi Solanki"} post={"Vice President"} />
@@ -70,7 +70,7 @@ export default function Team() {
 
       {/* Junior Council */}
       <div className="junior-council-section flex flex-col justify-center items-center mt-32 mb-10">
-        <p className="sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Junior Council</p>
+        <p className="sm:text-3xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Junior Council</p>
         <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Yash} name={"Yash Singh"} post={"General Secreatary"} />
           <ImageBox img={Adit} name={"Adit Gupta"} post={"Joint Secreatary"} />
