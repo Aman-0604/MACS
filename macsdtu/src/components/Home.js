@@ -8,7 +8,7 @@ import p3 from '../images/person3.svg'
 import p4 from '../images/person4.svg'
 import p5 from '../images/person5.svg'
 import p6 from '../images/person6.svg'
-import Dummy from '../images/dummy.jpg'
+// import Dummy from '../images/dummy.jpg'
 import arrow1 from '../images/arrow1.svg'
 import arrow2 from '../images/arrow2.svg'
 import arrow3 from '../images/arrow3.svg'
@@ -23,6 +23,11 @@ import clg_svg3 from '../images/college_svg3.svg';
 import expertise from '../images/expertise.svg';
 import impact from '../images/impact.svg';
 import mission from '../images/mission.svg';
+import AdityaMaurya from '../images/AdityaMaurya.jpg';
+import Ishan from '../images/Ishan.png';
+import Nikhil from '../images/Nikhil.jpg';
+import Keshav from '../images/Keshav.jpg';
+import SahilAnsari from '../images/SahilAnsari.jpg';
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "text-white", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }];
@@ -269,11 +274,11 @@ export default function Home() {
 
         {/* Gallery Grid */}
         <div className="gallery-grid columns-1 md:columns-2 lg:columns-3 xl:columns-3 mx-14 mt-10 mb-10">
-          <MessageBox img={Dummy} name={"Aditya Maurya"} role={"ex-President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
-          <MessageBox img={Dummy} name={"Ishan Bhateja"} role={"ex-Vice President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
-          <MessageBox img={Dummy} name={"Nikhil Gupta"} role={"ex-Treasurer, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
-          <MessageBox img={Dummy} name={"Md. Sahil Ansari"} role={"ex-Head of Operations, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
-          <MessageBox img={Dummy} name={"Keshav"} role={"ex-Head of Research, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={AdityaMaurya} name={"Aditya Maurya"} role={"Former-President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Ishan} name={"Ishan Bhateja"} role={"Former-Vice President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={Nikhil} name={"Nikhil Gupta"} role={"Former-Treasurer, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
+          <MessageBox img={SahilAnsari} name={"Md. Sahil Ansari"} role={"Former-Head of Operations, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
+          <MessageBox img={Keshav} name={"Keshav"} role={"Former-Head of Research, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
         </div>
       </div>
     </>
