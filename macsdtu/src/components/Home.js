@@ -26,12 +26,12 @@ import mission from '../images/mission.svg';
 let q1 = [{ message: "Empowering Minds, Shaping Future", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }, { message: "Join the Mathematics And Computing Society at DTU", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-5xl", lgSize: "lg:text-5xl", xlSize: "xl:text-5xl" }]
 let q2 = [{ message: "Where Passion Meets Precision, and Curiosity", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Unlocks the Boundless Potential of Numbers And Code.", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
 let q3 = [{ message: "Why to Join", color: "text-white", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }, { message: "Mathematics And Computing Society, DTU ?", color: "text-red-400", smSize: "sm:text-2xl", mdSize: "md:text-4xl", lgSize: "lg:text-4xl", xlSize: "xl:text-4xl" }];
-let q4 = [{ message: "Skill Development", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
-let q5 = [{ message: "Potential Growth", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
-let q6 = [{ message: "Leadership Opportunities", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
-let q7 = [{ message: "Networking", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
-let q8 = [{ message: "Resume Building", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
-let q9 = [{ message: "Social Impact", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q4 = [{ message: "Skill Development", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Leadership, Teamwork, Communication and what not", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
+let q5 = [{ message: "Potential Growth", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Develop Personality and gain experience", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q6 = [{ message: "Leadership Opportunities", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Organise University Level Events", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }];
+let q7 = [{ message: "Networking", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Senior-Junior Interaction", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q8 = [{ message: "Resume Building", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
+let q9 = [{ message: "Social Impact", color: "text-white", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 let q10 = [{ message: "Join the Community", color: "text-white", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 
 export default function Home() {
@@ -130,7 +130,7 @@ export default function Home() {
         </div>
 
         {/* Box - 2 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <LightBulbIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
 
         {/* Box - 3 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <RocketLaunchIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
 
         {/* Box - 4 */}
-        <div className="impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <BoltIcon className='thunder h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
 
         {/* Box - 5 */}
-        <div className="bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <AcademicCapIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
