@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Quotes from './Quotes'
 import EventBox from './Eventbox'
 // import Dummy from '../images/dummy.jpg'
+import p7 from '../images/person7.svg'
 import Event1 from '../images/event1.jpeg'
 import Event2 from '../images/event2.jpeg'
 import Event3 from '../images/event3.jpeg'
@@ -26,6 +28,7 @@ import Event23 from '../images/Event23.jpeg'
 import Event24 from '../images/Event24.jpeg'
 import Event25 from '../images/Event25.jpeg'
 let event_quote = [{ message: "Moments that matter, memories that linger.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our events, where every gathering becomes a celebration of shared experiences.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
+let contact_us = [{ message: "Contact Us", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "For collaborations and organisation of events.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Event() {
   return (
@@ -83,6 +86,17 @@ export default function Event() {
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Quizzes</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox img={Event7} />
+        </div>
+      </div>
+
+      {/* Contact Us */}
+      <div className="contact-us flex flex-row justify-between mx-auto">
+        <div className="flex justify-center items-center">
+          <img className="h-96" src={p7} alt="" />
+        </div>
+        <div className="flex flex-col justify-center items-center text-center">
+          <Quotes msg={contact_us} />
+          <Link to='mailto:macs@dtu.ac.in' target="_blank"><p className='stylish-2 mx-3 w-28 border rounded p-1 hover:bg-white hover:text-black text-center mt-5'>Mail Us</p></Link>
         </div>
       </div>
 
