@@ -5,7 +5,6 @@ import Achievement from './components/Achievement';
 import Event from './components/Event';
 import Gallery from './components/Gallery';
 import Team from './components/Team';
-import Sponsor from './components/Sponsor';
 import Placement from './components/Placement';
 import {
   BrowserRouter,
@@ -23,7 +22,6 @@ function App() {
         <Route exact path="/event" element={<Event />} />
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/team" element={<Team />} />
-        <Route exact path="/sponsor" element={<Sponsor />} />
         <Route exact path="/placement" element={<Placement />} />
       </Routes>
     </BrowserRouter>

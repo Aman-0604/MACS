@@ -47,7 +47,10 @@ combined reach of up to 2000 students belonging to various disciplines.
 
 # Class of 2022
 [Rahul Sharma](https://www.linkedin.com/in/therahulsharrma/)\
-[Aksht Jain](https://www.linkedin.com/in/aksht-jain-b65175119/)
+[Aksht Jain](https://www.linkedin.com/in/aksht-jain-b65175119/)\
+[Kunal Sharma](https://www.linkedin.com/in/kunal-sharma-469962166/)\
+[Mohit Jassi](https://www.linkedin.com/in/mohit-jassi-62194722a/)
+
 
 # Class of 2021
 [Sachin Duhan](https://www.linkedin.com/in/sachin-duhan/)\
