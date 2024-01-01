@@ -45,7 +45,15 @@ combined reach of up to 2000 students belonging to various disciplines.
 [Vidyanshu Mishra](https://www.linkedin.com/in/vidyanshumishra1729/)\
 [Shrey Jain](https://www.linkedin.com/in/shrey-singh-68731b197/)
 
+# Class of 2022
+[Rahul Sharma](https://www.linkedin.com/in/therahulsharrma/)\
+[Aksht Jain](https://www.linkedin.com/in/aksht-jain-b65175119/)\
+
 # Class of 2021
 [Sachin Duhan](https://www.linkedin.com/in/sachin-duhan/)\
 [Prateek Sethi](https://www.linkedin.com/in/prateek-sethi-12542318b/)\
 [Srishti Chaudhary](https://www.linkedin.com/in/srishti-chaudhary-446488155/)
+
+# Class of 2020
+[Vibhor Saxena](https://www.linkedin.com/in/vibhor-saxena-a847bb130/)\
+[Apurva Puri](https://www.linkedin.com/in/apurva-puri-40124a157/)
