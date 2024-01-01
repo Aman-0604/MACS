@@ -44,3 +44,8 @@ combined reach of up to 2000 students belonging to various disciplines.
 [Lakshita Singh](https://www.linkedin.com/in/lakshita-singh-8ba6451aa/)\
 [Vidyanshu Mishra](https://www.linkedin.com/in/vidyanshumishra1729/)\
 [Shrey Jain](https://www.linkedin.com/in/shrey-singh-68731b197/)
+
+# Class of 2021
+[Sachin Duhan](https://www.linkedin.com/in/sachin-duhan/)\
+[Prateek Sethi](https://www.linkedin.com/in/prateek-sethi-12542318b/)\
+[Srishti Chaudhary](https://www.linkedin.com/in/srishti-chaudhary-446488155/)
