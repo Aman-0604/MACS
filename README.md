@@ -19,15 +19,15 @@ media handles viz. Instagram and Facebook have gained gusto by vigorous
 engagement amongst the apprentices and the MACS. These handles have a
 combined reach of up to 2000 students belonging to various disciplines.
 
-**Illustrations:** [﻿Open Peeps](https://www.openpeeps.com/) 
+**Illustrations:** [Open Peeps](https://www.openpeeps.com/) 
 
-**Email Id:** [﻿Mail](mailto:macs@dtu.ac.in) 
+**Email Id:** [Mail](mailto:macs@dtu.ac.in) 
 
-**Instagram:** [﻿Instagram Handle](https://www.instagram.com/macs_dtu/) 
+**Instagram:** [Instagram Handle](https://www.instagram.com/macs_dtu/) 
 
-**Linkedin:** [﻿Linkedin Handle](https://www.linkedin.com/company/mathematics-and-computing/mycompany/) 
+**Linkedin:** [Linkedin Handle](https://www.linkedin.com/company/mathematics-and-computing/mycompany/) 
 
-**Website:** [﻿MACS Website](https://macsdtu.vercel.app/) 
+**Website:** [MACS Website](https://macsdtu.vercel.app/) 
 
 
 # Designer
