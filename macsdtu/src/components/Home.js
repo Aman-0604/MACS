@@ -287,7 +287,7 @@ export default function Home() {
           <MessageBox img={Ishan} name={"Ishan Bhateja"} role={"Former-Vice President, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
           <MessageBox img={Nikhil} name={"Nikhil Gupta"} role={"Former-Treasurer, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit"`} />
           <MessageBox img={SahilAnsari} name={"Md. Sahil Ansari"} role={"Former-Head of Operations, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis aliquid eveniet fuga veniam enim nulla incidunt dolores, a sit!"`} />
-          <MessageBox img={Keshav} name={"Keshav"} role={"Former-Head of Research, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
+          <MessageBox img={Keshav} name={"Keshav Nath"} role={"Former-Head of Research, MACS"} message={`"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur minima quia cumque doloremque esse eaque suscipit tempore reiciendis officia perspiciatis"`} />
         </div>
       </div>
 
