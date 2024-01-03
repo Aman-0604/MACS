@@ -115,7 +115,7 @@ export default function Home() {
       {/* About Us Grid */}
       <div className="gallery-grid w-5/6 mx-auto grid grid-cols-1 md:grid-cols-4 gap-2 p-2 justify-center relative bg-none transition-all ease-in-out">
         {/* Box - 1 */}
-        <div className="relative md:col-span-2 bg-gray-500 bg-opacity-5 flex md:justify-center rounded-2xl p-2 flex-col items-center md:flex-row" ref={divRef}
+        <div className="relative md:col-span-2 bg-gray-500 bg-opacity-5 flex md:justify-center rounded-2xl p-2 flex-col md:flex-row" ref={divRef}
           onMouseMove={handleMouseMove}
           onFocus={handleFocus}
           onBlur={handleBlur}
@@ -130,87 +130,84 @@ export default function Home() {
           />
           <div className="description p-1 md:w-2/3 bg-transparent">
             <BuildingLibraryIcon className='h-10 mx-auto md:ml-0 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
-            {/* <div className="icon p-1 w-16 bg-transparent aspect-square rounded-lg border border-red-400">
-              <img className="object-fill bg-transparent" src={p1} alt="" />
-            </div> */}
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Department of Applied Mathematics
             </p>
-            <p className="heading bg-transparent my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime fugiat, eius odit vitae nostrum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis maxime amet modi veritatis dolorem perferendis?
+            <p className="heading bg-transparent my-1 text-justify">
+              The Department of Applied Mathematics is the pride of DTU. The department strives to impart sound knowledge of Mathematics, Statistics and Computing to the students through teaching and analysis. The department is attaining its goals with the help of highly entitled faculty. The research outcome of the department is very remarkable and speaks clearly for the quality of work.
             </p>
           </div>
-          <img className='mt-auto md:w-1/3 bg-transparent w-1/2' src={clg_svg1} alt="" />
+          <img className='mt-auto md:w-1/3 bg-transparent w-1/2 mx-auto' src={clg_svg1} alt="" />
         </div>
 
         {/* Box - 2 */}
-        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col justify-between items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <LightBulbIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Vision
             </p>
             <p className="heading bg-transparent w-full my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+              MACS envisions a dynamic hub where learners passionate about math, computing, and finance collaborate, explore, and excel. The vision is to make a positive impact through applied mathematical and computational principles.
             </p>
           </div>
           <img className='w-full p-3 bg-transparent' src={clg_gate} alt="" />
         </div>
 
         {/* Box - 3 */}
-        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col justify-between items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <RocketLaunchIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mission
             </p>
             <p className="heading bg-transparent w-full my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+              MACS is dedicated to imparting knowledge, creating a conducive learning environment, and nurturing persistent growth through a platform that integrates theoretical and pragmatic applications in mathematics and computing.
             </p>
           </div>
           <img className='w-1/2 bg-transparent p-2' src={mission} alt="" />
         </div>
 
         {/* Box - 4 */}
-        <div className="glower impact bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower impact bg-gray-500 bg-opacity-5 flex flex-col justify-between items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <BoltIcon className='thunder h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Impact
             </p>
             <p className="heading bg-transparent w-full my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+              MACS, with over 250 active members, profoundly influences DTU's academic and professional landscape. Through events and workshops, it equips students for real-world challenges, fostering a vibrant community immersed in mathematics, computing, and finance.
             </p>
           </div>
           <img className='w-1/2 bg-transparent p-2' src={impact} alt="" />
         </div>
 
         {/* Box - 5 */}
-        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col items-center rounded-2xl p-2">
+        <div className="glower bg-gray-500 bg-opacity-5 flex flex-col justify-between items-center rounded-2xl p-2">
           <div className="description text-center p-1 w-full bg-transparent">
             <AcademicCapIcon className='h-10 w-10 p-1 mx-auto rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Expertise
             </p>
             <p className="heading bg-transparent w-full my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur.
+              MACS focuses on learning through workshops, SIGs, seminars, guest lessons and various seminars. MACS organizes various events every year with the consortium of Invictus i.e., the tech fest organised by the DTU.
             </p>
           </div>
           <img className='w-1/2 p-2 bg-transparent' src={expertise} alt="" />
         </div>
 
         {/* Box - 6 */}
-        <div className="bord-grad bg-gray-500 bg-opacity-5 flex flex-col md:flex-row items-center md:col-span-2 md:justify-center rounded-2xl p-2">
+        <div className="bord-grad bg-gray-500 bg-opacity-5 flex flex-col md:flex-row md:col-span-2 md:justify-center rounded-2xl p-2">
           <div className="description p-1 md:w-2/3 bg-transparent">
             <CodeBracketIcon className='h-10 mx-auto md:ml-0 w-10 p-1 rounded-lg stroke-red-400 fill-none' />
             <p className="heading bg-transparent text-3xl mt-1 mb-2">
               Mathematics and Computing Society
             </p>
-            <p className="heading bg-transparent my-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquid eos nihil ea iste quis numquam quam quia distinctio consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, officia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error vel illum quod harum iusto eius?
+            <p className="heading bg-transparent my-1 text-justify">
+              MACS stands for the Mathematics and Computing Society at Delhi Technological University (DTU). It serves as a vibrant community where pupils, passionate about applied mathematics, computer science, and finance come together to scour, learn, and thrive. Through events, workshops, and a dynamic online presence, MACS contributes to the intellectual and proficient growth of its members.
             </p>
           </div>
-          <img className='mt-auto md:w-1/3 bg-transparent w-1/2' src={clg_svg3} alt="" />
+          <img className='mt-auto md:w-1/3 bg-transparent w-1/2 mx-auto' src={clg_svg3} alt="" />
         </div>
 
       </div>
