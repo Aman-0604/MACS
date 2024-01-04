@@ -42,11 +42,11 @@ export default function Event() {
       <div className="flagship-event-section flex flex-col justify-center items-center mt-20 mx-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Flagship Events</p>
         <div className="flagship-event-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event3} />
-          <EventBox img={Event4} />
-          <EventBox img={Event5} />
-          <EventBox img={Event6} />
-          <EventBox img={Event16} />
+          <EventBox img={Event3} desc={"MACS DTU hosted Decyber at INVICTUS '23, where cyber warriors decrypted passwords, neutralized communications, and emerged victorious."} />
+          <EventBox img={Event4} desc={"MACS DTU presented Greedy Knights, challenging participants to collect coins by maneuvering knights, showcasing tactical brilliance in one minute."} />
+          <EventBox img={Event5} desc={"Coming Soon"} />
+          <EventBox img={Event6} desc={"Matheletics by MACS DTU, a thrilling math competition with absorbing rounds and a grand finale, providing unique learning opportunities."} />
+          <EventBox img={Event16} desc={"Mathemapics offered a heavenly extravaganza, challenging participants to uncover mathematical patterns, history, and cultures in pictures."} />
         </div>
       </div>
 
@@ -54,20 +54,20 @@ export default function Event() {
       <div className="workshop-section flex flex-col justify-center items-center mt-32 mx-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Workshops</p>
         <div className="workshop-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event1} />
-          <EventBox img={Event2} />
-          <EventBox img={Event8} />
-          <EventBox img={Event12} />
-          <EventBox img={Event13} />
-          <EventBox img={Event14} />
-          <EventBox img={Event15} />
-          <EventBox img={Event17} />
-          <EventBox img={Event18} />
-          <EventBox img={Event20} />
-          <EventBox img={Event22} />
-          <EventBox img={Event23} />
-          <EventBox img={Event24} />
-          <EventBox img={Event25} />
+          <EventBox img={Event1} desc={"Coming Soon"} />
+          <EventBox img={Event2} desc={"Coming Soon"} />
+          <EventBox img={Event8} desc={"Coming Soon"} />
+          <EventBox img={Event12} desc={"Coming Soon"} />
+          <EventBox img={Event13} desc={"Coming Soon"} />
+          <EventBox img={Event14} desc={"Coming Soon"} />
+          <EventBox img={Event15} desc={"Coming Soon"} />
+          <EventBox img={Event17} desc={"Coming Soon"} />
+          <EventBox img={Event18} desc={"Coming Soon"} />
+          <EventBox img={Event20} desc={"Coming Soon"} />
+          <EventBox img={Event22} desc={"Coming Soon"} />
+          <EventBox img={Event23} desc={"Coming Soon"} />
+          <EventBox img={Event24} desc={"Coming Soon"} />
+          <EventBox img={Event25} desc={"Coming Soon"} />
         </div>
       </div>
 
@@ -75,9 +75,9 @@ export default function Event() {
       <div className="hackathons-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Hackathons</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event9} />
-          <EventBox img={Event19} />
-          <EventBox img={Event21} />
+          <EventBox img={Event9} desc={"Coming Soon"} />
+          <EventBox img={Event19} desc={"Coming Soon"} />
+          <EventBox img={Event21} desc={"Coming Soon"} />
         </div>
       </div>
 
@@ -85,7 +85,7 @@ export default function Event() {
       <div className="quiz-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Quizzes</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event7} />
+          <EventBox img={Event7} desc={"Coming Soon"} />
         </div>
       </div>
 
