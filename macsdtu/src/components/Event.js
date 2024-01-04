@@ -42,11 +42,11 @@ export default function Event() {
       <div className="flagship-event-section flex flex-col justify-center items-center mt-20 mx-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Flagship Events</p>
         <div className="flagship-event-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event3} desc={"MACS DTU hosted Decyber at INVICTUS '23, where cyber warriors decrypted passwords, neutralized communications, and emerged victorious."} />
-          <EventBox img={Event4} desc={"MACS DTU presented Greedy Knights, challenging participants to collect coins by maneuvering knights, showcasing tactical brilliance in one minute."} />
-          <EventBox img={Event5} desc={"Coming Soon"} />
-          <EventBox img={Event6} desc={"Matheletics by MACS DTU, a thrilling math competition with absorbing rounds and a grand finale, providing unique learning opportunities."} />
-          <EventBox img={Event16} desc={"Mathemapics offered a heavenly extravaganza, challenging participants to uncover mathematical patterns, history, and cultures in pictures."} />
+          <EventBox textcolor={"text-white"} img={Event3} desc={"MACS DTU hosted Decyber at INVICTUS '23, where cyber warriors decrypted passwords, neutralized communications, and emerged victorious."} />
+          <EventBox textcolor={"text-white"} img={Event4} desc={"MACS DTU presented Greedy Knights, challenging participants to collect coins by maneuvering knights, showcasing tactical brilliance in one minute."} />
+          <EventBox textcolor={"text-white"} img={Event5} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event6} desc={"Matheletics by MACS DTU, a thrilling math competition with absorbing rounds and a grand finale, providing unique learning opportunities."} />
+          <EventBox textcolor={"text-white"} img={Event16} desc={"Mathemapics offered a heavenly extravaganza, challenging participants to uncover mathematical patterns, history, and cultures in pictures."} />
         </div>
       </div>
 
@@ -54,20 +54,20 @@ export default function Event() {
       <div className="workshop-section flex flex-col justify-center items-center mt-32 mx-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Workshops</p>
         <div className="workshop-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event1} desc={"Coming Soon"} />
-          <EventBox img={Event2} desc={"Coming Soon"} />
-          <EventBox img={Event8} desc={"Coming Soon"} />
-          <EventBox img={Event12} desc={"Coming Soon"} />
-          <EventBox img={Event13} desc={"Coming Soon"} />
-          <EventBox img={Event14} desc={"Coming Soon"} />
-          <EventBox img={Event15} desc={"Coming Soon"} />
-          <EventBox img={Event17} desc={"Coming Soon"} />
-          <EventBox img={Event18} desc={"Coming Soon"} />
-          <EventBox img={Event20} desc={"Coming Soon"} />
-          <EventBox img={Event22} desc={"Coming Soon"} />
-          <EventBox img={Event23} desc={"Coming Soon"} />
-          <EventBox img={Event24} desc={"Coming Soon"} />
-          <EventBox img={Event25} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-black"} img={Event1} desc={"MACS-DTU hosted online SIG, aiding students in acing MA101, covering topics like series convergence and definite integrals."} />
+          <EventBox textcolor={"text-black"} img={Event2} desc={"MACS-DTU hosted online SIG, aiding students in acing C0101 mid-semester exams by covering programming fundamentals."} />
+          <EventBox textcolor={"text-white"} img={Event8} desc={"MACS-DTU provided pivotal GSoC preparation tips, supporting participants in understanding and navigating GSOC."} />
+          <EventBox textcolor={"text-white"} img={Event12} desc={"Last year, MACS DTU hosted an Orientation and Python workshop by Mr. Mohit Uniyal, exploring CS concepts, data science, and DSA."} />
+          <EventBox textcolor={"text-black"} img={Event13} desc={"MACS DTU hosted 'A Walk through MITACS Canada' by Mr. Vidyanshu Mishra, offering valuable insights for aspiring Mitacs scholars and future researchers."} />
+          <EventBox textcolor={"text-white"} img={Event14} desc={"MACS DTU, with the Department of Mathematics, hosted a session on Process Mining by Monika Gupta from IBM Research."} />
+          <EventBox textcolor={"text-white"} img={Event15} desc={"MACS DTU and Mathematics Dept. hosted a seminar on ML with Tejas Dhamecha from IBM Research, exploring theory, industry, and live examples."} />
+          <EventBox textcolor={"text-white"} img={Event17} desc={"MACS DTU and Coding Ninjas collaborated for a dynamic and engaging, free workshop on DSA and CP with Facebook SDE Mr. Rajat Saxena."} />
+          <EventBox textcolor={"text-black"} img={Event18} desc={"MACS DTU, SIAM DTU, BITGRIT in association with MLSA presented a webinar on Full Stack Development and DevOps with Azure."} />
+          <EventBox textcolor={"text-black"} img={Event20} desc={"MACS-DTU, SIAM, Bitgrit, and Data Gateway hosted a webinar on Data Science & ML featuring Mr. Siddhant Gupta from Amazon."} />
+          <EventBox textcolor={"text-black"} img={Event22} desc={"MACS-DTU concluded its ML webinar series with 'Hands-on ML Coding' featuring Tanay Singhania, now an SDE at Amazon."} />
+          <EventBox textcolor={"text-black"} img={Event23} desc={"MACS hosted Code Talks on Programming featuring Sachin Duhan, a DTU 4th-year MCE student with extensive experience and projects."} />
+          <EventBox textcolor={"text-white"} img={Event24} desc={"MACS DTU, in collaboration with Career Launcher, presented a webinar on GMAT vs CAT guided by Mr. Arks Srinivas."} />
+          <EventBox textcolor={"text-black"} img={Event25} desc={"MACS DTU, in collaboration with PrepBytes organized a free online workshop on competitive coding and placements, featuring Mrs Mamta Kumari."} />
         </div>
       </div>
 
@@ -75,9 +75,9 @@ export default function Event() {
       <div className="hackathons-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Hackathons</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event9} desc={"Coming Soon"} />
-          <EventBox img={Event19} desc={"Coming Soon"} />
-          <EventBox img={Event21} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event9} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event19} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event21} desc={"Coming Soon"} />
         </div>
       </div>
 
@@ -85,7 +85,7 @@ export default function Event() {
       <div className="quiz-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Quizzes</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox img={Event7} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event7} desc={"Coming Soon"} />
         </div>
       </div>
 
