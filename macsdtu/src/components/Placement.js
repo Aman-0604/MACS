@@ -33,7 +33,7 @@ export default function Placement() {
             <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mx-auto mb-10 mt-10">
                 <PlacementBox img={Shresth} name={"Shresth Jain"} company={"Gameskraft"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/shresth-jain-2000/"} companylogo={Gameskraft} />
                 <PlacementBox img={Siddharth} name={"Siddharth Bihani"} company={"Atlassian"} position={"SDE"} linkedin={"https://www.linkedin.com/in/siddharth-bihani/"} companylogo={Atlassian} />
-                <PlacementBox img={Vidyanshu} name={"Vidyanshu Mishra"} company={"Sprinklr"} position={"Product Analyst"} linkedin={"https://www.linkedin.com/in/vidyanshumishra1729/"} companylogo={Sprinklr} />
+                <PlacementBox img={Vidyanshu} name={"Vidyanshu Mishra"} company={"Sprinklr"} position={"Product Engineer"} linkedin={"https://www.linkedin.com/in/vidyanshumishra1729/"} companylogo={Sprinklr} />
                 <PlacementBox img={Shrey} name={"Shrey Singh"} company={"Metalbook"} position={"Software Developer"} linkedin={"https://www.linkedin.com/in/shrey-singh-68731b197/"} companylogo={Metalbook} />
                 <PlacementBox img={Aksht} name={"Aksht Jain"} company={"Rippling"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/aksht-jain-b65175119/"} companylogo={Rippling} />
                 <PlacementBox img={Rahul} name={"Rahul Sharma"} company={"Amazon"} position={"Business Analyst"} linkedin={"https://www.linkedin.com/in/therahulsharrma/"} companylogo={Amazon} />
