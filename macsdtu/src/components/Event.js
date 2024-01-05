@@ -44,7 +44,7 @@ export default function Event() {
         <div className="flagship-event-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
           <EventBox textcolor={"text-white"} img={Event3} desc={"MACS DTU hosted Decyber at INVICTUS '23, where cyber warriors decrypted passwords, neutralized communications, and emerged victorious."} />
           <EventBox textcolor={"text-white"} img={Event4} desc={"MACS DTU presented Greedy Knights, challenging participants to collect coins by maneuvering knights, showcasing tactical brilliance in one minute."} />
-          <EventBox textcolor={"text-white"} img={Event5} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event5} desc={"Chess Warfare tournament, where players compete in a knockout stage tournament, following official chess rules and playing in a blitz format."} />
           <EventBox textcolor={"text-white"} img={Event6} desc={"Matheletics by MACS DTU, a thrilling math competition with absorbing rounds and a grand finale, providing unique learning opportunities."} />
           <EventBox textcolor={"text-white"} img={Event16} desc={"Mathemapics offered a heavenly extravaganza, challenging participants to uncover mathematical patterns, history, and cultures in pictures."} />
         </div>
@@ -75,9 +75,9 @@ export default function Event() {
       <div className="hackathons-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Hackathons</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox textcolor={"text-white"} img={Event9} desc={"Coming Soon"} />
-          <EventBox textcolor={"text-white"} img={Event19} desc={"Coming Soon"} />
-          <EventBox textcolor={"text-white"} img={Event21} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event9} desc={"ML Hackathon where a problem statement will be given to ponder over, on which you will have to be worked upon."} />
+          <EventBox textcolor={"text-black"} img={Event19} desc={"In this one of a kind Hackathon, we challenge the genius inside of you to develop a Machine Learning model that could predict which tweet could go viral."} />
+          <EventBox textcolor={"text-white"} img={Event21} desc={"Developing machine learning model to predict the number of views that videos are likely to receive."} />
         </div>
       </div>
 
@@ -85,7 +85,7 @@ export default function Event() {
       <div className="quiz-section flex flex-col justify-center items-center mt-32 mx-10 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Quizzes</p>
         <div className="hackathons-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <EventBox textcolor={"text-white"} img={Event7} desc={"Coming Soon"} />
+          <EventBox textcolor={"text-white"} img={Event7} desc={"The BizQuiz Delhi Finals quiz, putting your stock market and Finance skills to the test."} />
         </div>
       </div>
 

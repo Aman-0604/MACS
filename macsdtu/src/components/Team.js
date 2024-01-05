@@ -72,8 +72,8 @@ export default function Team() {
       <div className="junior-council-section flex flex-col justify-center items-center mt-32 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Junior Council</p>
         <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <ImageBox img={Yash} name={"Yash Singh"} post={"General Secreatary"} />
-          <ImageBox img={Adit} name={"Adit Gupta"} post={"Joint Secreatary"} />
+          <ImageBox img={Yash} name={"Yash Singh"} post={"General Secretary"} />
+          <ImageBox img={Adit} name={"Adit Gupta"} post={"Joint Secretary"} />
           <ImageBox img={Divyanshu} name={"Divyanshu"} post={"ML Head"} />
           <ImageBox img={Abhimanyu} name={"Abhimanyu"} post={"Content Head"} />
           <ImageBox img={Vishwam} name={"Vishwam"} post={"Creative Head"} />
