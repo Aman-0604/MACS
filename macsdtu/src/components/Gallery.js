@@ -49,6 +49,28 @@ import GalleryImage45 from '../images/memory45.png'
 import GalleryImage46 from '../images/memory46.jpg'
 import GalleryImage47 from '../images/memory47.png'
 import GalleryImage48 from '../images/memory48.png'
+import GalleryImage49 from '../images/memory49.jpg'
+import GalleryImage50 from '../images/memory50.jpg'
+import GalleryImage51 from '../images/memory51.jpg'
+import GalleryImage52 from '../images/memory52.jpg'
+import GalleryImage53 from '../images/memory53.jpg'
+import GalleryImage54 from '../images/memory54.jpg'
+import GalleryImage55 from '../images/memory55.jpg'
+import GalleryImage56 from '../images/memory56.jpg'
+import GalleryImage57 from '../images/memory57.jpg'
+import GalleryImage58 from '../images/memory58.jpg'
+import GalleryImage59 from '../images/memory59.jpg'
+import GalleryImage60 from '../images/memory60.jpg'
+import GalleryImage61 from '../images/memory61.jpg'
+import GalleryImage62 from '../images/memory62.jpg'
+import GalleryImage63 from '../images/memory63.jpg'
+import GalleryImage64 from '../images/memory64.jpg'
+import GalleryImage65 from '../images/memory65.jpg'
+import GalleryImage66 from '../images/memory66.jpg'
+import GalleryImage67 from '../images/memory67.jpg'
+import GalleryImage68 from '../images/memory68.jpg'
+import GalleryImage69 from '../images/memory69.jpg'
+import GalleryImage70 from '../images/memory70.jpg'
 let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Gallery() {
@@ -109,6 +131,28 @@ export default function Gallery() {
         <GalleryBox img={GalleryImage46} />
         <GalleryBox img={GalleryImage47} />
         <GalleryBox img={GalleryImage48} />
+        <GalleryBox img={GalleryImage49} />
+        <GalleryBox img={GalleryImage50} />
+        <GalleryBox img={GalleryImage51} />
+        <GalleryBox img={GalleryImage52} />
+        <GalleryBox img={GalleryImage53} />
+        <GalleryBox img={GalleryImage54} />
+        <GalleryBox img={GalleryImage55} />
+        <GalleryBox img={GalleryImage56} />
+        <GalleryBox img={GalleryImage57} />
+        <GalleryBox img={GalleryImage58} />
+        <GalleryBox img={GalleryImage59} />
+        <GalleryBox img={GalleryImage60} />
+        <GalleryBox img={GalleryImage61} />
+        <GalleryBox img={GalleryImage62} />
+        <GalleryBox img={GalleryImage63} />
+        <GalleryBox img={GalleryImage64} />
+        <GalleryBox img={GalleryImage65} />
+        <GalleryBox img={GalleryImage66} />
+        <GalleryBox img={GalleryImage67} />
+        <GalleryBox img={GalleryImage68} />
+        <GalleryBox img={GalleryImage69} />
+        <GalleryBox img={GalleryImage70} />
       </div>
     </div>
   )
