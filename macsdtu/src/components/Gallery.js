@@ -8,7 +8,7 @@ import GalleryImage4 from '../images/memory4.jpg'
 import GalleryImage5 from '../images/memory5.jpg'
 import GalleryImage6 from '../images/memory6.jpg'
 import GalleryImage7 from '../images/memory7.jpg'
-import GalleryImage8 from '../images/memory8.jpg'
+// import GalleryImage8 from '../images/memory8.jpg'
 import GalleryImage9 from '../images/memory9.jpg'
 import GalleryImage10 from '../images/memory10.jpg'
 import GalleryImage11 from '../images/memory11.jpg'
@@ -90,7 +90,7 @@ export default function Gallery() {
         <GalleryBox img={GalleryImage5} />
         <GalleryBox img={GalleryImage6} />
         <GalleryBox img={GalleryImage7} />
-        <GalleryBox img={GalleryImage8} />
+        {/* <GalleryBox img={GalleryImage8} /> */}
         <GalleryBox img={GalleryImage9} />
         <GalleryBox img={GalleryImage10} />
         <GalleryBox img={GalleryImage11} />
