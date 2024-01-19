@@ -43,7 +43,7 @@ export default function Team() {
 
       {/* Whole Team Photo */}
       <div className="flex justify-center mx-8 lg:mx-16 mt-3">
-        <img className="whole-team-photo" src={wholeTeamPhoto} alt="" />
+        <img className="whole-team-photo block object-cover object-center" src={wholeTeamPhoto} alt="" />
       </div>
 
       {/* Faculty Section */}
