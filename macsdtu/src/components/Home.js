@@ -16,6 +16,7 @@ import p3 from '../images/person3.svg'
 import p4 from '../images/person4.svg'
 import p5 from '../images/person5.svg'
 import p6 from '../images/person6.svg'
+import Speakers from '../images/Speakers.png'
 // import Dummy from '../images/dummy.jpg'
 import arrow1 from '../images/arrow1.svg'
 import arrow2 from '../images/arrow2.svg'
@@ -49,6 +50,7 @@ let q8 = [{ message: "Resume Building", color: "text-white", size: "text-xl", sm
 let q9 = [{ message: "Social Impact", color: "text-white", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 let q10 = [{ message: "Join the Community", color: "text-white", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
+let speaker_quote = [{ message: "Elevating knowledge, igniting inspiration.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our events resonate with the wisdom shared by remarkable speakers,", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "transforming moments into lifelong lessons.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Home() {
   const divRef = useRef(null);
@@ -305,6 +307,16 @@ export default function Home() {
           <SponsorBox img={Sponsor4} />
           <SponsorBox img={Sponsor6} />
         </Marquee>
+      </div>
+
+      {/* Speakers Photo */}
+      <div className="speakers">
+        <div className="qoutes text-center flex flex-col items-center mb-5 mx-10">
+          <Quotes msg={speaker_quote} />
+        </div>
+        <div className="flex justify-center">
+          <img className="speakers-photo block object-cover object-center" src={Speakers} alt="" />
+        </div>
       </div>
     </>
   )
