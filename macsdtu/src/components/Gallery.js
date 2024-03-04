@@ -73,6 +73,9 @@ import GalleryImage69 from '../images/memory69.jpg'
 import GalleryImage70 from '../images/memory70.jpg'
 import GalleryImage71 from '../images/memory71.jpg'
 import GalleryImage72 from '../images/memory72.jpg'
+import GalleryImage73 from '../images/memory73.jpg'
+import GalleryImage74 from '../images/memory74.jpg'
+import GalleryImage75 from '../images/memory75.jpg'
 let gallery_quote = [{ message: "Discover the magic within frames.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our gallery, where moments become memories, and every image has a story to tell.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Gallery() {
@@ -157,6 +160,9 @@ export default function Gallery() {
         <GalleryBox img={GalleryImage70} />
         <GalleryBox img={GalleryImage71} />
         <GalleryBox img={GalleryImage72} />
+        <GalleryBox img={GalleryImage73} />
+        <GalleryBox img={GalleryImage74} />
+        <GalleryBox img={GalleryImage75} />
       </div>
     </div>
   )
