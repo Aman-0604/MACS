@@ -1,5 +1,6 @@
 import React from 'react'
-import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
+// import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
+import wholeTeamPhoto2 from '../images/wholeTeamPhoto2.jpg'
 import Dinesh from '../images/DineshUdar.jpg'
 import Vivek from '../images/vivek.jpg'
 // import Dummy from '../images/dummy.jpg'
@@ -43,7 +44,7 @@ export default function Team() {
 
       {/* Whole Team Photo */}
       <div className="flex justify-center mx-8 lg:mx-16 mt-3">
-        <img className="whole-team-photo block object-cover object-center" src={wholeTeamPhoto} alt="" />
+        <img className="whole-team-photo block object-cover object-center" src={wholeTeamPhoto2} alt="" />
       </div>
 
       {/* Faculty Section */}
