@@ -3,12 +3,15 @@ import Quotes from './Quotes'
 import PlacementBox from './PlacementBox'
 // import DummyWithoutBox from '../images/dummywithoutbg.png'
 import Atlassian from '../logos/Atlassian.png'
+import Salesforce from '../logos/Salesforce.png'
+import BNY from '../logos/BNY.png'
+import FastRetailing from '../logos/FastRetailing.png'
 import Amazon from '../logos/Amazon.jpg'
 import Sprinklr from '../logos/Sprinklr.png'
 import Gameskraft from '../logos/GamesKraft.jpg'
 import Rippling from '../logos/Rippling.png'
 import Metalbook from '../logos/Metalbook.png'
-import Euler from '../logos/Euler.png'
+import Signzy from '../logos/Signzy.png'
 import Fractal from '../logos/Fractal.png'
 import Shresth from '../images/Shresth.png'
 import Vidyanshu from '../images/Vidyanshu.png'
@@ -19,6 +22,10 @@ import Sachin from '../images/Sachin.png'
 import Kunal from '../images/Kunal.png'
 import Siddharth from '../images/Siddharth.png'
 import Aksht from '../images/Aksht.png'
+import AdityaMaurya from '../images/AdityaMauryaRemovebg.png';
+import Ishan from '../images/IshanRemovebg.png';
+import Nikhil from '../images/NikhilRemovebg.png';
+import SahilAnsari from '../images/SahilAnsariRemovebg.png';
 let achievement_quote = [{ message: "Turning aspirations into achievements, our members not only dream but also conquer.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Each placement conquered is a testament to their dedication, resilience,", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "and the unwavering pursuit of excellence.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Placement() {
@@ -31,6 +38,10 @@ export default function Placement() {
 
             {/* Achievements Wall */}
             <div className="achievement-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 mx-auto mb-10 mt-10">
+                <PlacementBox img={Nikhil} name={"Nikhil Gupta"} company={"Salesforce"} position={"AMTS"} linkedin={"https://www.linkedin.com/in/nikhil-gupta-2601/"} companylogo={Salesforce} />
+                <PlacementBox img={AdityaMaurya} name={"Aditya Maurya"} company={"Fast Retailing"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/aditya-maurya0702/"} companylogo={FastRetailing} />
+                <PlacementBox img={Ishan} name={"Ishan Bhateja"} company={"BNY Mellon"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/ishan-bhateja/"} companylogo={BNY} />
+                <PlacementBox img={SahilAnsari} name={"Sahil Ansari"} company={"Amazon"} position={"Business Analyst"} linkedin={"https://www.linkedin.com/in/inquisitivesahil/"} companylogo={Amazon} />
                 <PlacementBox img={Shresth} name={"Shresth Jain"} company={"Gameskraft"} position={"Software Engineer"} linkedin={"https://www.linkedin.com/in/shresth-jain-2000/"} companylogo={Gameskraft} />
                 <PlacementBox img={Siddharth} name={"Siddharth Bihani"} company={"Atlassian"} position={"SDE"} linkedin={"https://www.linkedin.com/in/siddharth-bihani/"} companylogo={Atlassian} />
                 <PlacementBox img={Vidyanshu} name={"Vidyanshu Mishra"} company={"Sprinklr"} position={"Product Engineer"} linkedin={"https://www.linkedin.com/in/vidyanshumishra1729/"} companylogo={Sprinklr} />
@@ -39,7 +50,7 @@ export default function Placement() {
                 <PlacementBox img={Rahul} name={"Rahul Sharma"} company={"Amazon"} position={"Business Analyst"} linkedin={"https://www.linkedin.com/in/therahulsharrma/"} companylogo={Amazon} />
                 <PlacementBox img={Kunal} name={"Kunal Sharma"} company={"Amazon"} position={"Data Analyst"} linkedin={"https://www.linkedin.com/in/kunal-sharma-469962166/"} companylogo={Amazon} />
                 <PlacementBox img={Vibhor} name={"Vibhor Saxena"} company={"Fractal"} position={"Data Scientist"} linkedin={"https://www.linkedin.com/in/vibhor-saxena-a847bb130/"} companylogo={Fractal} />
-                <PlacementBox img={Sachin} name={"Sachin Duhan"} company={"Euler Motors"} position={"MTS"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={Euler} />
+                <PlacementBox img={Sachin} name={"Sachin Duhan"} company={"Signzy"} position={"Engineering Team Lead"} linkedin={"https://www.linkedin.com/in/sachin-duhan/"} companylogo={Signzy} />
             </div>
         </div>
     )
