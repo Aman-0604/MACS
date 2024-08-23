@@ -37,6 +37,15 @@ combined reach of up to 2000 students belonging to various disciplines.
 [Aman Gupta](https://www.linkedin.com/in/ag0604/)\
 [Aditya Mishra](https://www.linkedin.com/in/aditya-m-33119a233/)
 
+# Class of 2026
+[Ayan Mahajan](https://www.linkedin.com/in/ayan-mahajan-14028b255/)\
+[Prashant Kaushik](https://www.linkedin.com/in/prashant-kaushik-55a6a1256/)\
+[Aditya Pratap Singh](https://www.linkedin.com/in/aditya-pratap-singh-862b07256/)\
+[Adit Gupta](https://www.linkedin.com/in/adit-gupta-87b43321b/)\
+[Divyanshu Bansal](https://www.linkedin.com/in/divyanshu-bansal04/)\
+[Aryan Garg](https://www.linkedin.com/in/aryan-garg-3506b4245/)\
+[Ananya Bhatnagar](https://www.linkedin.com/in/ananya-bhatnagar-9aa496255/)
+
 # Class of 2025
 [Nissan Kumar](https://www.linkedin.com/in/nissan-kumar-554a7a224/)\
 [Charvi Solanki](https://www.linkedin.com/in/charvi-solanki-99b90b256/)\
