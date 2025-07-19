@@ -1,14 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Link } from 'react-router-dom'
 import { AcademicCapIcon, BoltIcon, BuildingLibraryIcon, CodeBracketIcon, LightBulbIcon, RocketLaunchIcon } from '@heroicons/react/24/solid'
-import Marquee from "react-fast-marquee";
-import Sponsor1 from '../images/Sponsor1.png'
-import Sponsor2 from '../images/Sponsor2.png'
-import Sponsor3 from '../images/Sponsor3.png'
-import Sponsor4 from '../images/Sponsor4.png'
-import Sponsor5 from '../images/Sponsor5.png'
-import Sponsor6 from '../images/Sponsor6.png'
-import SponsorBox from './Sponsorbox'
 import logo from '../images/macs-logo-2.svg'
 import p1 from '../images/person1.svg'
 import p2 from '../images/person2.svg'
@@ -49,7 +41,6 @@ let q7 = [{ message: "Networking", color: "text-white", size: "text-xl", smSize:
 let q8 = [{ message: "Resume Building", color: "text-white", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "POR Section Sorted!!", color: "text-neutral-400", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 let q9 = [{ message: "Social Impact", color: "text-white", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Make a positive difference", color: "text-neutral-400", size: "text-xl", smSize: "extra-small sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
 let q10 = [{ message: "Join the Community", color: "text-white", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }, { message: "Supported by the network of contributors and champions", color: "text-neutral-400", size: "text-xl", smSize: "sm:text-xl", mdSize: "md:text-2xl", lgSize: "lg:text-2xl", xlSize: "xl:text-2xl" }]
-let sponsor_quote = [{ message: "Gratitude in partnership, impact in support.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "To our sponsors, thank you for being the cornerstone of our success.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 let speaker_quote = [{ message: "Elevating knowledge, igniting inspiration.", color: "text-white", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "Our events resonate with the wisdom shared by remarkable speakers,", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }, { message: "transforming moments into lifelong lessons.", color: "text-red-400", size: "text-2xl", smSize: "sm:text-2xl", mdSize: "md:text-3xl", lgSize: "lg:text-3xl", xlSize: "xl:text-3xl" }]
 
 export default function Home() {
@@ -292,21 +283,6 @@ export default function Home() {
           <MessageBox img={Shrey} name={"Shrey Singh"} role={"Software Developer, Metalbook"} message={`"MACS seniors have answered my 'bhaiya help chahiye/ bhaiya notes/ bhaiya subject konsa lu/ bhaiya coding kaha se karu and many more' questions everytime."`} />
           <MessageBox img={Mohit} name={"Mohit Jassi"} role={"MSc Mathematical Finance Student, Warwick Business School"} message={`"MACS has been a platform where we learnt how to collaborate, share and realise our potential. The society and the seniors have provided a perpetual prerogative to pursue our thoughts and achieve higher heights."`} />
         </div>
-      </div>
-
-      {/* Sponsors Section */}
-      <div className="sponsors my-16">
-        <div className="qoutes text-center flex flex-col items-center mb-5 mx-10">
-          <Quotes msg={sponsor_quote} />
-        </div>
-        <Marquee autoFill="true">
-          <SponsorBox img={Sponsor1} />
-          <SponsorBox img={Sponsor2} />
-          <SponsorBox img={Sponsor5} />
-          <SponsorBox img={Sponsor3} />
-          <SponsorBox img={Sponsor4} />
-          <SponsorBox img={Sponsor6} />
-        </Marquee>
       </div>
 
       {/* Speakers Photo */}

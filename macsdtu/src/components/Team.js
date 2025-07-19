@@ -1,8 +1,8 @@
 import React from 'react'
 // import wholeTeamPhoto from '../images/wholeTeamPhoto.png'
 import wholeTeamPhoto2 from '../images/wholeTeamPhoto2.jpg'
-import Dinesh from '../images/DineshUdar.jpg'
-import Vivek from '../images/vivek.jpg'
+// import Dinesh from '../images/DineshUdar.jpg'
+// import Vivek from '../images/vivek.jpg'
 // import Dummy from '../images/dummy.jpg'
 import Nissan from '../images/Nissan.jpg'
 import Aman from '../images/Aman.jpg'
@@ -10,14 +10,12 @@ import Charvi from '../images/Charvi.jpg'
 import Rahul from '../images/Rahul.jpg'
 import Harshit from '../images/Harshit.jpg'
 import Shivam from '../images/Shivam.jpg'
-import Yash from '../images/Yash.jpg'
 import Adit from '../images/Adit.jpg'
 import Aditya from '../images/Aditya.jpg'
 import Ayush from '../images/Ayush.jpg'
 import Divyanshu from '../images/Divyanshu.jpg'
 import Komal from '../images/Komal.jpg'
 import Aakshat from '../images/Aakshat.jpg'
-import Vishwam from '../images/Vishwam.jpg'
 import Abhimanyu from '../images/Abhimanyu.jpg'
 import Aryan from '../images/Aryan.jpg'
 import Himesh from '../images/Himesh.jpg'
@@ -48,13 +46,13 @@ export default function Team() {
       </div>
 
       {/* Faculty Section */}
-      <div className="faculty-section flex flex-col justify-center items-center mt-16">
+      {/* <div className="faculty-section flex flex-col justify-center items-center mt-16">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Facutly Advisors</p>
         <div className="faculty-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-44 gap-y-20 mt-16">
           <ImageBox img={Dinesh} name={"Dr. Dinesh Udar"} post={"Coordinator"} />
           <ImageBox img={Vivek} name={"Dr. Vivek Kumar"} post={"Co-Coordinator"} />
         </div>
-      </div>
+      </div> */}
 
       {/* Senior Council */}
       <div className="senior-council-section flex flex-col justify-center items-center mt-32">
@@ -73,11 +71,9 @@ export default function Team() {
       <div className="junior-council-section flex flex-col justify-center items-center mt-32 mb-10">
         <p className="text-2xl sm:text-2xl md:text-5xl lg:text-5xl xl:text-5xl uppercase text-center">Junior Council</p>
         <div className="junior-council-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-44 gap-y-20 mt-16">
-          <ImageBox img={Yash} name={"Yash Singh"} post={"General Secretary"} />
-          <ImageBox img={Adit} name={"Adit Gupta"} post={"Joint Secretary"} />
+          <ImageBox img={Adit} name={"Adit Gupta"} post={"General Secretary"} />
           <ImageBox img={Divyanshu} name={"Divyanshu"} post={"ML Head"} />
           <ImageBox img={Abhimanyu} name={"Abhimanyu"} post={"Content Head"} />
-          <ImageBox img={Vishwam} name={"Vishwam"} post={"Creative Head"} />
           <ImageBox img={Ananya} name={"Ananya"} post={"Content Head"} />
           <ImageBox img={Ayan} name={"Ayan"} post={"Design Head"} />
           <ImageBox img={Jalaj} name={"Jalaj"} post={"Design Head"} />
